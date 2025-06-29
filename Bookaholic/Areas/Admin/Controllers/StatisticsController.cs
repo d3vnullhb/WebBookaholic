@@ -16,18 +16,27 @@ namespace Bookaholic.Areas.Admin.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(DateTime? fromDate, DateTime? toDate)
         {
-            // Tổng số đơn hàng
-            var totalOrders = _context.Orders.Count();
-
-            // Tổng doanh thu (bỏ qua đơn bị huỷ)
-            var totalRevenue = _context.Orders
+            var orders = _context.Orders
                 .Where(o => o.OrderStatus != "Đã hủy")
-                .Sum(o => o.TotalAmount);
+                .AsQueryable();
+
+            // Nếu có lọc từ ngày → đến ngày
+            if (fromDate.HasValue)
+                orders = orders.Where(o => o.OrderDate >= fromDate.Value);
+
+            if (toDate.HasValue)
+                orders = orders.Where(o => o.OrderDate <= toDate.Value);
+
+            // Tổng số đơn hàng
+            var totalOrders = orders.Count();
+
+            // Tổng doanh thu
+            var totalRevenue = orders.Sum(o => o.TotalAmount);
 
             // Số đơn theo trạng thái
-            var orderStatusCounts = _context.Orders
+            var orderStatusCounts = orders
                 .GroupBy(o => o.OrderStatus)
                 .Select(g => new
                 {
@@ -35,9 +44,10 @@ namespace Bookaholic.Areas.Admin.Controllers
                     Count = g.Count()
                 }).ToList();
 
-            // Top 5 sách bán chạy theo số lượng
+            // Top 5 sách bán chạy
             var topBooks = _context.OrderDetails
                 .Include(od => od.Book)
+                .Where(od => orders.Select(o => o.OrderId).Contains(od.OrderId))
                 .GroupBy(od => od.Book.Title)
                 .Select(g => new
                 {
@@ -48,24 +58,11 @@ namespace Bookaholic.Areas.Admin.Controllers
                 .Take(5)
                 .ToList();
 
-            // Doanh thu theo tháng (năm hiện tại)
-            var revenueByMonth = _context.Orders
-                .Where(o => o.OrderStatus != "Đã hủy" && o.OrderDate.Year == DateTime.Now.Year)
-                .GroupBy(o => o.OrderDate.Month)
-                .Select(g => new
-                {
-                    Month = g.Key,
-                    Total = g.Sum(o => o.TotalAmount)
-                })
-                .OrderBy(g => g.Month)
-                .ToList();
-
             // Gán dữ liệu sang ViewBag
             ViewBag.TotalOrders = totalOrders;
             ViewBag.TotalRevenue = totalRevenue;
             ViewBag.OrderStatusCounts = orderStatusCounts;
             ViewBag.TopBooks = topBooks;
-            ViewBag.RevenueByMonth = revenueByMonth;
 
             return View();
         }

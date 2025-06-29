@@ -30,7 +30,7 @@
     </div>
 </form>
 
-<!-- 🔴 Form xoá theo bộ lọc hiện tại -->
+<!--  Form xoá theo bộ lọc hiện tại -->
 <form asp-action="DeleteOld" method="post" onsubmit="return confirm('Bạn chắc chắn muốn xoá các liên hệ theo bộ lọc này?');">
     <input type="hidden" name="fromDate" value="@Context.Request.Query["fromDate"]" />
     <input type="hidden" name="toDate" value="@Context.Request.Query["toDate"]" />
@@ -39,7 +39,7 @@
 </form>
 
 <table class="table table-bordered table-hover align-middle">
-    <thead class="table-light text-center">
+   <thead class="table-success text-center">
         <tr>
             <th>Họ tên</th>
             <th>Email</th>
@@ -58,7 +58,7 @@
                 <td>@c.SentAt.ToString("dd/MM/yyyy HH:mm")</td>
                 <td class="text-center">
                     <div class="d-flex justify-content-center gap-2">
-                        <a asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">
+                        <a asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-secondary">
                             <i class="bi bi-eye"></i> Xem
                         </a>
                         <form asp-action="Delete" asp-route-id="@c.Id" method="post" onsubmit="return confirm('Bạn chắc chắn muốn xoá liên hệ này?');" class="d-inline">

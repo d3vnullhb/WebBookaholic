@@ -1,13 +1,30 @@
-﻿@using System.Text.Json
-@using System.Collections.Generic
+﻿@using System.Collections.Generic
 @{
     ViewData["Title"] = "Thống kê";
     Layout = "~/Views/Shared/_Layoutadmin.cshtml";
     var revenue = (decimal)(ViewBag.TotalRevenue ?? 0);
+    var fromDate = Context.Request.Query["fromDate"];
+    var toDate = Context.Request.Query["toDate"];
 }
 
 <h2 class="mb-4">📊 Thống kê</h2>
 
+<!-- Form lọc ngày -->
+<form method="get" class="row g-2 mb-4">
+    <div class="col-md-3">
+        <label class="form-label">Từ ngày</label>
+        <input type="date" name="fromDate" class="form-control" value="@fromDate" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Đến ngày</label>
+        <input type="date" name="toDate" class="form-control" value="@toDate" />
+    </div>
+    <div class="col-md-3 d-flex align-items-end">
+        <button type="submit" class="btn btn-success">📅 Lọc thống kê</button>
+    </div>
+</form>
+
+<!-- Tổng đơn và tổng doanh thu -->
 <div class="row mb-4">
     <div class="col-md-6">
         <div class="card shadow-sm border-primary">
@@ -27,10 +44,11 @@
     </div>
 </div>
 
+<!-- Số đơn theo trạng thái -->
 <div class="mb-5">
     <h4 class="mb-3">🧾 Số đơn theo trạng thái</h4>
     <table class="table table-bordered table-striped">
-        <thead class="table-dark">
+        <thead style="background-color: #d9eee1;">
             <tr>
                 <th>Trạng thái</th>
                 <th>Số lượng</th>
@@ -48,10 +66,11 @@
     </table>
 </div>
 
+<!-- Top 5 sách bán chạy -->
 <div>
     <h4 class="mb-3">🔥 Top 5 sách bán chạy</h4>
     <table class="table table-hover">
-        <thead class="table-light">
+        <thead style="background-color: #d9eee1;">
             <tr>
                 <th>STT</th>
                 <th>Tên sách</th>
@@ -73,49 +92,3 @@
         </tbody>
     </table>
 </div>
-
-<div class="mt-5">
-    <h4 class="mb-3">📈 Doanh thu theo tháng (năm @DateTime.Now.Year)</h4>
-    <canvas id="revenueChart" height="100"></canvas>
-</div>
-
-@{
-    var labels = (List<string>)ViewBag.ChartLabels;
-    var data = (List<decimal>)ViewBag.ChartData;
-}
-@section Scripts {
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        const labels = @Html.Raw(JsonSerializer.Serialize<List<string>>(labels));
-        const data = @Html.Raw(JsonSerializer.Serialize<List<decimal>>(data));
-
-        const ctx = document.getElementById('revenueChart').getContext('2d');
-        const chart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: 'Doanh thu (VNĐ)',
-                    data: data,
-                    backgroundColor: 'rgba(75, 192, 192, 0.6)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        ticks: {
-                            callback: function (value) {
-                                return value.toLocaleString('vi-VN') + ' đ';
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    </script>
-}
-}

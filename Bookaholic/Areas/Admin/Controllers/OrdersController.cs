@@ -21,18 +21,24 @@ namespace Bookaholic.Areas.Admin.Controllers
         }
 
         // GET: Admin/Orders
-        public async Task<IActionResult> Index(int page = 1)
+        public async Task<IActionResult> Index(string search, int page = 1)
         {
             int pageSize = 10;
 
             var query = _context.Orders
                 .Include(o => o.User)
                 .Include(o => o.Voucher)
-                .OrderByDescending(o => o.OrderDate)
+                .AsQueryable();
 
-                ;
+            if (!string.IsNullOrEmpty(search))
+            {
+                query = query.Where(o => (o.User.FirstName + " " + o.User.LastName).Contains(search));
+            }
+
+            query = query.OrderByDescending(o => o.OrderDate);
 
             int totalOrders = await query.CountAsync();
+
             var orders = await query
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
@@ -40,9 +46,11 @@ namespace Bookaholic.Areas.Admin.Controllers
 
             ViewBag.CurrentPage = page;
             ViewBag.TotalPages = (int)Math.Ceiling((double)totalOrders / pageSize);
+            ViewBag.Search = search;
 
             return View(orders);
         }
+
 
 
         // GET: Admin/Orders/Details/5

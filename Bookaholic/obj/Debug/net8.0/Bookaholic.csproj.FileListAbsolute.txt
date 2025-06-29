@@ -292,3 +292,4 @@ C:\Users\caoho\source\repos\Bookaholic\Bookaholic\obj\Debug\net8.0\refint\Bookah
 C:\Users\caoho\source\repos\Bookaholic\Bookaholic\obj\Debug\net8.0\Bookaholic.pdb
 C:\Users\caoho\source\repos\Bookaholic\Bookaholic\obj\Debug\net8.0\Bookaholic.genruntimeconfig.cache
 C:\Users\caoho\source\repos\Bookaholic\Bookaholic\obj\Debug\net8.0\ref\Bookaholic.dll
+C:\Users\caoho\source\repos\Bookaholic\Bookaholic\obj\Debug\net8.0\Bookaholic.sourcelink.json
