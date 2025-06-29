@@ -1,0 +1,124 @@
+﻿@model IEnumerable<Bookaholic.Models.Order>
+
+@{
+    ViewData["Title"] = "Quản lý đơn hàng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h2 class="mb-4">📦 Quản lý đơn hàng</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<table class="table table-bordered table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Người dùng</th>
+            <th>Họ tên</th>
+            <th>SĐT</th>
+            <th>Địa chỉ</th>
+            <th>Ngày đặt</th>
+            <th>Địa chỉ giao</th>
+            <th>Phí vận chuyển</th>
+            <th>Mã giảm giá</th>
+            <th>Giảm giá</th>
+            <th>Tổng tiền</th>
+            <th>Phương thức</th>
+            <th>Trạng thái thanh toán</th>
+            <th>Trạng thái đơn</th>
+            <th>Ghi chú</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.User?.Email</td>
+                <td>@item.FullName</td>
+                <td>@item.Phone</td>
+                <td>@item.Address</td>
+                <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@item.ShippingAddress</td>
+                <td>@item.ShippingFee.ToString("N0") đ</td>
+                <td>@item.Voucher?.Code</td>
+                <td>@item.DiscountAmount.ToString("N0") đ</td>
+                <td class="fw-bold text-danger">@item.TotalAmount.ToString("N0") đ</td>
+                <td>@item.PaymentMethod</td>
+                <td>
+                    @{
+                        var paymentBadgeClass = item.PaymentStatus switch
+                        {
+                            "Pending" => "bg-warning text-dark",
+                            "Paid" => "bg-success",
+                            _ => "bg-secondary"
+                        };
+
+                        var paymentText = item.PaymentStatus switch
+                        {
+                            "Pending" => "Chờ thanh toán",
+                            "Paid" => "Đã thanh toán",
+                            _ => item.PaymentStatus
+                        };
+                    }
+                    <span class="badge @paymentBadgeClass">@paymentText</span>
+                </td>
+
+                <td>
+                    <span class="badge @GetStatusClass(item.OrderStatus)">
+                        @item.OrderStatus
+                    </span>
+                </td>
+                <td>@item.Note</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.OrderId" class="btn btn-sm btn-primary">Chi tiết</a>
+                    <a asp-action="Edit" asp-route-id="@item.OrderId" class="btn btn-sm btn-warning mx-1">Trạng thái</a>
+
+                    @if (item.OrderStatus == "Hoàn tất")
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.OrderId" class="btn btn-sm btn-danger">Xóa</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="mt-4 d-flex justify-content-center gap-2">
+        @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+        {
+            if (i == (int)ViewBag.CurrentPage)
+            {
+                <span class="px-3 py-1 bg-success text-white rounded">@i</span>
+            }
+            else
+            {
+                <a href="@Url.Action("Index", new { page = i })"
+                   class="px-3 py-1 border rounded text-decoration-none text-dark bg-light">@i</a>
+            }
+        }
+    </div>
+}
+
+@functions {
+    public string GetStatusClass(string status)
+    {
+        return status switch
+        {
+            "Chờ xác nhận" => "bg-warning text-dark",
+            "Đã xác nhận" => "bg-info text-white",
+            "Đang giao" => "bg-primary text-white",
+            "Hoàn tất" => "bg-success",
+            "Đã hủy" => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+}

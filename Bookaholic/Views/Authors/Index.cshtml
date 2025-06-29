@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Bookaholic.Models.Author>
+
+@{
+    ViewData["Title"] = "Tác giả";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    int currentPage = ViewBag.CurrentPage ?? 1;
+    int totalPages = ViewBag.TotalPages ?? 1;
+    string startsWith = ViewBag.StartsWith as string;
+}
+
+<link rel="stylesheet" href="~/css/author-list.css" />
+
+<div class="container my-4">
+    <h2 class="fw-bold mb-4">👤 Tác giả</h2>
+
+    <!-- 🔎 Bộ lọc dropdown theo chữ cái -->
+    <form method="get" asp-controller="Authors" asp-action="Index"
+          class="d-flex flex-wrap gap-3 align-items-center mb-4">
+        <label for="startsWith" class="fw-semibold mb-0">Lọc theo chữ cái:</label>
+        <select name="startsWith" id="startsWith" class="form-select form-select-sm w-auto"
+                onchange="this.form.submit()">
+            <option value="">Tất cả</option>
+            @foreach (char c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+            {
+                <option value="@c" selected="@(startsWith == c.ToString() ? "selected" : null)">@c</option>
+            }
+        </select>
+        @if (!string.IsNullOrEmpty(startsWith))
+        {
+            <a href="@Url.Action("Index")" class="btn btn-link text-danger p-0">❌ Xoá lọc</a>
+        }
+    </form>
+
+    <!-- 👥 Danh sách tác giả -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        @foreach (var author in Model)
+        {
+            <div class="col" data-aos="fade-up">
+                <a href="@Url.Action("Details", "Authors", new { id = author.AuthorId })"
+                   class="author-card d-flex flex-column align-items-center text-center shadow-sm text-dark text-decoration-none p-3 h-100 rounded-3 border border-light-subtle hover-shadow">
+                    <img src="@Url.Content(string.IsNullOrEmpty(author.ImageUrl) ? "~/images/default-avatar.png" : $"~{author.ImageUrl}")"
+                         class="rounded-circle shadow-sm mb-3 author-avatar"
+                         alt="@author.Name"
+                         loading="lazy" />
+                    <h6 class="fw-bold">@author.Name</h6>
+                    <p class="text-muted small text-truncate-2">
+                        @(string.IsNullOrEmpty(author.Bio) ? "" : author.Bio)
+                    </p>
+                </a>
+            </div>
+        }
+    </div>
+
+    <!-- 📄 Phân trang -->
+    @if (totalPages > 1)
+    {
+        <div class="mt-4 d-flex justify-content-center gap-2">
+            @for (int i = 1; i <= totalPages; i++)
+            {
+                if (i == currentPage)
+                {
+                    <span class="px-3 py-1 bg-success text-white rounded">@i</span>
+                }
+                else
+                {
+                    <a href="@Url.Action("Index", new { page = i, startsWith = startsWith })"
+                       class="px-3 py-1 border rounded text-decoration-none text-dark bg-light">@i</a>
+                }
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Trang quản trị";
+}
+
+<h2 class="text-success fw-bold">Trang quản trị</h2>
+<hr />
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card border-success shadow">
+            <div class="card-body">
+                <h5 class="card-title">Tổng số sách</h5>
+                <p class="card-text fs-3">@ViewData["TotalBooks"]</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-success shadow">
+            <div class="card-body">
+                <h5 class="card-title">Tổng số đơn hàng</h5>
+                <p class="card-text fs-3">@ViewData["TotalOrders"]</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card border-success shadow">
+            <div class="card-body">
+                <h5 class="card-title">Tổng số người dùng</h5>
+                <p class="card-text fs-3">@ViewData["TotalUsers"]</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿@model Bookaholic.Models.Category
+
+@{
+    ViewData["Title"] = "Xoá thể loại";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="text-danger mb-4">🗑️ Xác nhận xoá thể loại</h3>
+
+<div class="alert alert-warning d-flex align-items-center" role="alert">
+    <i class="bi bi-exclamation-triangle-fill me-2"></i>
+    Bạn có chắc chắn muốn xoá thể loại này? Hành động này không thể hoàn tác.
+</div>
+
+<div class="bg-light border rounded p-4 shadow-sm mb-3">
+    <dl class="row mb-0">
+        <dt class="col-sm-3 fw-bold text-dark">Tên thể loại:</dt>
+        <dd class="col-sm-9">@Model.CategoryName</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post" class="d-flex gap-2">
+    <input type="hidden" asp-for="CategoryId" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash-fill"></i> Xoá
+    </button>
+    <a asp-action="Index" class="btn btn-outline-secondary">
+        <i class="bi bi-arrow-left"></i> Quay lại
+    </a>
+</form>

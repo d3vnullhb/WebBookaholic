@@ -1,0 +1,148 @@
+﻿@model Bookaholic.ViewModels.BookListViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Danh sách Sách";
+    int currentPage = ViewData["CurrentPage"] != null ? (int)ViewData["CurrentPage"] : 1;
+    int totalPages = ViewData["TotalPages"] != null ? (int)ViewData["TotalPages"] : 1;
+    string sort = ViewData["Sort"] as string ?? "";
+}
+
+<div class="container my-4">
+    <form method="get" asp-controller="Books" asp-action="Index">
+        <div class="row g-3 align-items-end mb-4">
+            <!-- Thể loại dropdown -->
+            <div class="col-md-4">
+                <label for="categoryId" class="form-label fw-bold">📂 Thể loại</label>
+                <select class="form-select rounded-pill px-3" name="categoryId" onchange="this.form.submit()">
+                    <option value="">-- Tất cả --</option>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <option value="@category.CategoryId"
+                                selected="@(category.CategoryId == Model.SelectedCategoryId ? "selected" : null)">
+                            @category.CategoryName
+                        </option>
+                    }
+                </select>
+            </div>
+
+            <!-- Sắp xếp -->
+            <div class="col-md-8 d-flex flex-wrap justify-content-md-end align-items-center gap-2">
+                <input type="hidden" name="categoryId" value="@Model.SelectedCategoryId" />
+                <span class="fw-bold me-2">Sắp xếp:</span>
+                <div class="btn-group btn-group-sm" role="group" aria-label="Sort">
+                    <a asp-action="Index" asp-route-categoryId="@Model.SelectedCategoryId" asp-route-sort="default"
+                       class="btn @(sort == "default" ? "btn-dark" : "btn-outline-secondary")">Mặc định</a>
+                    <a asp-action="Index" asp-route-categoryId="@Model.SelectedCategoryId" asp-route-sort="priceAsc"
+                       class="btn @(sort == "priceAsc" ? "btn-dark" : "btn-outline-secondary")">Giá ↑</a>
+                    <a asp-action="Index" asp-route-categoryId="@Model.SelectedCategoryId" asp-route-sort="priceDesc"
+                       class="btn @(sort == "priceDesc" ? "btn-dark" : "btn-outline-secondary")">Giá ↓</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- 🔍 Nếu có từ khóa tìm kiếm -->
+    @if (!string.IsNullOrEmpty(Context.Request.Query["search"]))
+    {
+        <div class="mb-3">
+            <span class="fw-bold">🔍 Kết quả tìm kiếm cho: </span>
+            <span class="text-primary">"@Context.Request.Query["search"]"</span>
+        </div>
+    }
+
+    <!-- 🔖 Tiêu đề danh mục -->
+    <h3 class="fw-bold mb-4">📚 Danh sách @Model.CurrentCategoryName</h3>
+
+    <!-- 🖼️ Danh sách sản phẩm -->
+    @if (Model.Books == null || !Model.Books.Any())
+    {
+        <div class="alert alert-warning">
+            ⚠️ Không tìm thấy sách phù hợp với yêu cầu của bạn.
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+            @foreach (var item in Model.Books)
+            {
+                <div class="col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card product-card card-hover border-0 h-100 text-center">
+                        <a asp-action="Details" asp-route-id="@item.BookId">
+                            <img src="@(!string.IsNullOrEmpty(item.ImageUrl) ? item.ImageUrl : "/images/books/default.jpg")"
+                                 alt="@item.Title"
+                                 title="@item.Title"
+                                 class="product-img card-img-top mx-auto d-block p-3"
+                                 style="height: 200px; object-fit: contain;"
+                                 loading="lazy" />
+                        </a>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h6 class="fw-semibold text-truncate">@item.Title</h6>
+                            <p class="text-success fw-bold mb-1">@($"{item.OriginalPrice:n0}₫")</p>
+                            <div class="d-flex justify-content-center gap-2 mt-auto">
+                                <a asp-action="Details" asp-route-id="@item.BookId"
+                                   class="btn btn-sm btn-outline-secondary" title="Xem chi tiết">
+                                    <i class="bi bi-eye"></i> Xem
+                                </a>
+                                <form asp-action="AddToCart" method="post" asp-controller="CartItems">
+                                    <input type="hidden" name="bookId" value="@item.BookId" />
+                                    <button type="submit" class="btn btn-sm btn-outline-primary" title="Thêm vào giỏ">
+                                        <i class="bi bi-cart-plus"></i> Giỏ
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <!-- 📄 Phân trang -->
+    @if (totalPages > 1)
+    {
+        <nav class="mt-4" aria-label="Phân trang">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(currentPage == 1 ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-categoryId="@Model.SelectedCategoryId"
+                       asp-route-page="@(currentPage - 1)"
+                       asp-route-sort="@sort">←</a>
+                </li>
+                @for (int i = 1; i <= totalPages; i++)
+                {
+                    <li class="page-item @(i == currentPage ? "active" : "")">
+                        <a class="page-link" asp-action="Index"
+                           asp-route-categoryId="@Model.SelectedCategoryId"
+                           asp-route-page="@i"
+                           asp-route-sort="@sort">@i</a>
+                    </li>
+                }
+                <li class="page-item @(currentPage == totalPages ? "disabled" : "")">
+                    <a class="page-link" asp-action="Index"
+                       asp-route-categoryId="@Model.SelectedCategoryId"
+                       asp-route-page="@(currentPage + 1)"
+                       asp-route-sort="@sort">→</a>
+                </li>
+            </ul>
+        </nav>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', () => {
+                localStorage.setItem('scrollPos', window.scrollY);
+            });
+        });
+
+        window.addEventListener('load', function () {
+            const scrollPos = localStorage.getItem('scrollPos');
+            if (scrollPos !== null) {
+                window.scrollTo({ top: parseInt(scrollPos), behavior: 'instant' });
+                localStorage.removeItem('scrollPos');
+            }
+        });
+    </script>
+}

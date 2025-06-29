@@ -1,0 +1,121 @@
+﻿@using System.Text.Json
+@using System.Collections.Generic
+@{
+    ViewData["Title"] = "Thống kê";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+    var revenue = (decimal)(ViewBag.TotalRevenue ?? 0);
+}
+
+<h2 class="mb-4">📊 Thống kê</h2>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-primary">
+            <div class="card-body">
+                <h5 class="card-title text-primary">Tổng số đơn hàng</h5>
+                <h3 class="fw-bold">@ViewBag.TotalOrders</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm border-success">
+            <div class="card-body">
+                <h5 class="card-title text-success">Tổng doanh thu</h5>
+                <h3 class="fw-bold text-danger">@revenue.ToString("N0") đ</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mb-5">
+    <h4 class="mb-3">🧾 Số đơn theo trạng thái</h4>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Trạng thái</th>
+                <th>Số lượng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.OrderStatusCounts)
+            {
+                <tr>
+                    <td>@item.Status</td>
+                    <td>@item.Count</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <h4 class="mb-3">🔥 Top 5 sách bán chạy</h4>
+    <table class="table table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>STT</th>
+                <th>Tên sách</th>
+                <th>Số lượng bán</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var stt = 1;
+                foreach (var book in ViewBag.TopBooks)
+                {
+                    <tr>
+                        <td>@(stt++)</td>
+                        <td>@book.BookTitle</td>
+                        <td>@book.TotalSold</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="mt-5">
+    <h4 class="mb-3">📈 Doanh thu theo tháng (năm @DateTime.Now.Year)</h4>
+    <canvas id="revenueChart" height="100"></canvas>
+</div>
+
+@{
+    var labels = (List<string>)ViewBag.ChartLabels;
+    var data = (List<decimal>)ViewBag.ChartData;
+}
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const labels = @Html.Raw(JsonSerializer.Serialize<List<string>>(labels));
+        const data = @Html.Raw(JsonSerializer.Serialize<List<decimal>>(data));
+
+        const ctx = document.getElementById('revenueChart').getContext('2d');
+        const chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Doanh thu (VNĐ)',
+                    data: data,
+                    backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function (value) {
+                                return value.toLocaleString('vi-VN') + ' đ';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}
+}

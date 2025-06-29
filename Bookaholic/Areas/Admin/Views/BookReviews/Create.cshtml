@@ -1,0 +1,61 @@
+﻿@model Bookaholic.Models.BookReview
+@{
+    ViewData["Title"] = "Thêm bài viết";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-4 text-success">📝 Thêm bài viết mới</h3>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+    <!-- Tiêu đề -->
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label fw-bold">Tiêu đề</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <!-- Nội dung -->
+    <div class="mb-3">
+        <label asp-for="Content" class="form-label fw-bold">Nội dung</label>
+        <textarea asp-for="Content" rows="6" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+
+    <!-- Chọn sách -->
+    <div class="mb-3">
+        <label asp-for="BookId" class="form-label fw-bold">Chọn sách</label>
+        <select asp-for="BookId" class="form-select" asp-items="ViewBag.BookId">
+            <option value="">-- Chọn sách --</option>
+        </select>
+        <span asp-validation-for="BookId" class="text-danger"></span>
+    </div>
+
+    <!-- Ảnh -->
+    <div class="mb-3">
+        <label asp-for="ImageFile" class="form-label fw-bold">Ảnh bài viết</label>
+        <input type="file" asp-for="ImageFile" class="form-control" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+
+    <!-- Hiển thị -->
+    <div class="form-check mb-3">
+        <input class="form-check-input" asp-for="IsPublished" />
+        <label class="form-check-label" asp-for="IsPublished">Hiển thị bài viết</label>
+    </div>
+
+    <!-- Nút -->
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-success">
+            <i class="bi bi-save me-1"></i> Lưu bài viết
+        </button>
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left me-1"></i> Quay lại
+        </a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

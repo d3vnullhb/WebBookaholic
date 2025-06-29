@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+@model Bookaholic.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Xoá người dùng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-4 text-danger">🗑️ Xác nhận xoá người dùng</h3>
+
+<div class="alert alert-warning">
+    Bạn có chắc chắn muốn xoá người dùng sau đây không?
+</div>
+
+<div class="card border-danger shadow-sm">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Tên đăng nhập</dt>
+            <dd class="col-sm-9">@Model.UserName</dd>
+        </dl>
+    </div>
+</div>
+
+<form asp-action="Delete" method="post" class="mt-4">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="d-flex justify-content-between">
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="bi bi-arrow-left"></i> Huỷ
+        </a>
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Xoá
+        </button>
+    </div>
+</form>
+

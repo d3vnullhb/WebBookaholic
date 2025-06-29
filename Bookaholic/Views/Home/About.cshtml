@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Giới thiệu";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-5 px-3 px-md-5">
+    <!-- Tiêu đề -->
+    <h1 class="text-center fw-bold mb-3 display-5">
+        About <span class="text-success">Bookaholic</span>
+    </h1>
+    <p class="text-center text-muted fs-5 mb-4">
+        Bookaholic là nơi kết nối những người yêu sách, chia sẻ tác phẩm và cảm hứng đọc khắp thế giới.
+    </p>
+    <hr class="mx-auto mb-5" style="width: 80px;" />
+
+    <!-- Khối 1 -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <img src="~/images/banner4.jpg" class="img-fluid rounded shadow-sm" alt="Banner Bookaholic" />
+        </div>
+        <div class="col-md-6">
+            <h4 class="fw-bold mb-3">Khám phá tri thức không giới hạn</h4>
+            <p>
+                Tại Bookaholic, bạn có thể theo dõi tiểu sử tác giả, đọc nhận xét cộng đồng và khám phá những đầu sách được yêu thích nhất.
+                Chúng tôi xây dựng một nền tảng để mỗi độc giả đều tìm thấy cảm hứng đọc và học tập mỗi ngày.
+            </p>
+            <a asp-controller="Books" asp-action="Index" class="btn btn-dark px-4">Khám phá thêm</a>
+        </div>
+    </div>
+
+    <!-- Khối 2 -->
+    <div class="row align-items-center flex-md-row-reverse mb-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <img src="~/images/banner1.jpg" class="img-fluid rounded shadow-sm" alt="Book Event" />
+        </div>
+        <div class="col-md-6">
+            <h4 class="fw-bold mb-3">Cộng đồng đam mê đọc sách</h4>
+            <p>
+                Bookaholic là nơi hàng ngàn người chia sẻ đánh giá, bình luận và kết nối qua những cuốn sách yêu thích.
+                Hãy cùng tạo nên một cộng đồng đọc sách tích cực, năng động và truyền cảm hứng.
+            </p>
+            <a href="https://zalo.me/g/ljbxtj308" target="_blank" class="btn btn-outline-success px-4">Tham gia ngay</a>
+        </div>
+    </div>
+
+    <!-- Trích dẫn -->
+    <div class="text-center my-5">
+        <blockquote class="blockquote text-muted fst-italic border-start border-3 ps-3 mx-auto" style="max-width: 800px;">
+            “Sách mở ra thế giới, Bookaholic đưa bạn đến gần hơn với tri thức.”
+        </blockquote>
+    </div>
+
+    <!-- Liên hệ -->
+    <div class="bg-light p-4 rounded shadow-sm">
+        <h5 class="fw-bold mb-2" style="color: #3C7A56;">📬 Liên hệ với chúng tôi</h5>
+        <p class="mb-1">Email: <a href="mailto:support@bookaholic.vn">support@bookaholic.vn</a></p>
+        <p class="mb-0">Fanpage: <a href="https://facebook.com/bookaholic" target="_blank">facebook.com/bookaholic</a></p>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+﻿@model Bookaholic.Models.Book
+
+@{
+    ViewData["Title"] = "Chi tiết sách";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-4 text-primary">👁️ Chi tiết sách</h3>
+
+<div class="row">
+    <div class="col-md-8">
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold">Tiêu đề</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3 fw-bold">Tác giả</dt>
+            <dd class="col-sm-9">@Model.Author?.Name</dd>
+
+            <dt class="col-sm-3 fw-bold">Người dịch</dt>
+            <dd class="col-sm-9">@Model.Translator</dd>
+
+            <dt class="col-sm-3 fw-bold">Nhà xuất bản</dt>
+            <dd class="col-sm-9">@Model.Publisher</dd>
+
+            <dt class="col-sm-3 fw-bold">Kích thước</dt>
+            <dd class="col-sm-9">@Model.Size</dd>
+
+            <dt class="col-sm-3 fw-bold">Số trang</dt>
+            <dd class="col-sm-9">@Model.Pages</dd>
+
+            <dt class="col-sm-3 fw-bold">Năm xuất bản</dt>
+            <dd class="col-sm-9">@Model.PublishYear</dd>
+
+            <dt class="col-sm-3 fw-bold">Giá khuyến mãi</dt>
+            @string.Format("{0:N0} đ", Model.Price)
+            <dt class="col-sm-3 fw-bold">Giá gốc</dt>
+            <dd class="col-sm-9">@Model.OriginalPrice.ToString("N0") ?? "0" đ</dd>
+            <dt class="col-sm-3 fw-bold">Số lượng</dt>
+            <dd class="col-sm-9">@Model.Quantity</dd>
+            <dt class="col-sm-3 fw-bold">Mô tả</dt>
+            <dd class="col-sm-9">@Model.Description</dd>
+            <dt class="col-sm-3 fw-bold">Ảnh sách</dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl"
+                         alt="Ảnh sách"
+                         class="img-thumbnail"
+                         style="height: 120px; object-fit: cover; border-radius: 6px;" />
+                }
+                else
+                {
+                    <span class="text-muted fst-italic">Chưa có ảnh</span>
+                }
+            </dd>
+
+            <dt class="col-sm-3 fw-bold">Thể loại</dt>
+            <dd class="col-sm-9">@Model.Category?.CategoryName</dd>
+
+            <dt class="col-sm-3 fw-bold">Ngày tạo</dt>
+            <dd class="col-sm-9">@Model.CreatedAt.ToString("dd/MM/yyyy")</dd>
+        </dl>
+
+        <div class="mt-4 d-flex gap-2">
+            <a asp-action="Edit" asp-route-id="@Model.BookId" class="btn btn-primary">
+                <i class="bi bi-pencil-square"></i> Sửa
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+        </div>
+    </div>
+</div>

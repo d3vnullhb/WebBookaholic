@@ -1,0 +1,43 @@
+﻿@model Bookaholic.Models.PaymentResponseModel
+@{
+    ViewData["Title"] = "Kết quả thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var response = Model ?? new Bookaholic.Models.PaymentResponseModel
+    {
+        Success = true,
+        PaymentMethod = "COD",
+        OrderDescription = "Thanh toán khi nhận hàng"
+    };
+}
+
+<div class="container py-5">
+    <div class="text-center">
+        <h2 class="mb-4">@ViewBag.Message</h2>
+
+        @if (response.Success)
+        {
+            <div class="alert alert-success">
+                @if (!string.IsNullOrEmpty(response.TransactionId))
+                {
+                    <p><strong>Mã giao dịch:</strong> @response.TransactionId</p>
+                }
+                <p><strong>Thông tin đơn hàng:</strong> @response.OrderDescription</p>
+                <p><strong>Phương thức:</strong> @response.PaymentMethod</p>
+                @if (!string.IsNullOrEmpty(response.OrderId))
+                {
+                    <p><strong>Mã đơn hàng:</strong> @response.OrderId</p>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-danger">
+                <p>Thanh toán thất bại. Mã lỗi VNPAY: <strong>@response.VnPayResponseCode</strong></p>
+                <p>Vui lòng thử lại hoặc chọn phương thức khác.</p>
+            </div>
+        }
+
+        <a class="btn btn-primary mt-4" asp-controller="Home" asp-action="Index">🔙 Về trang chủ</a>
+    </div>
+</div>

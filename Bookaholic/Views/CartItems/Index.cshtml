@@ -1,0 +1,101 @@
+﻿@model Bookaholic.ViewModels.CartViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<div class="container py-4">
+    <div class="mx-auto" style="max-width: 1000px;">
+        <h2 class="text-success fw-bold mb-4">🛒 Giỏ hàng của bạn</h2>
+
+        @if (Model.Items == null || !Model.Items.Any())
+        {
+            <div class="alert alert-info">Giỏ hàng của bạn đang trống.</div>
+        }
+        else
+        {
+            <!-- ✅ Bảng sản phẩm có thanh cuộn -->
+            <div class="table-responsive border rounded shadow-sm scroll-box" style="max-height: 400px; overflow-y: auto;">
+                <table class="table table-borderless align-middle mb-0">
+                    <thead class="border-bottom sticky-top bg-white" style="top: 0; z-index: 1;">
+                        <tr class="text-muted small">
+                            <th style="width: 50%;">Thông tin sản phẩm</th>
+                            <th>Đơn giá</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Items)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="d-flex">
+                                        <img src="@item.Book.ImageUrl" class="img-thumbnail me-3" style="width: 80px;" />
+                                        <div>
+                                            <strong>@item.Book.Title</strong><br />
+                                            <form asp-controller="CartItems" asp-action="Remove" method="post">
+                                                <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                                <button type="submit" class="btn btn-link text-danger p-0">Xóa</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-success fw-bold">@string.Format("{0:n0}₫", item.Book.OriginalPrice)</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <form asp-controller="CartItems" asp-action="UpdateQuantity" method="post" class="me-1">
+                                            <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                            <input type="hidden" name="change" value="-1" />
+                                            <button class="btn btn-outline-secondary btn-sm">−</button>
+                                        </form>
+                                        <span class="mx-2">@item.Quantity</span>
+                                        <form asp-controller="CartItems" asp-action="UpdateQuantity" method="post" class="ms-1">
+                                            <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                                            <input type="hidden" name="change" value="1" />
+                                            <button class="btn btn-outline-secondary btn-sm">+</button>
+                                        </form>
+                                    </div>
+                                </td>
+                                <td class="fw-bold text-success">@string.Format("{0:n0}₫", item.Subtotal)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- ✅ Tổng cộng + nút thanh toán -->
+            <div class="text-end mt-4">
+                <h5>
+                    Tổng cộng:
+                    <span class="text-danger fw-bold">
+                        @string.Format("{0:n0}₫", Model.Total)
+                    </span>
+                </h5>
+
+                <form asp-controller="Checkout" asp-action="Index" method="get" class="d-inline-block">
+                    <button type="submit" class="btn btn-success px-4 mt-2">Thanh toán</button>
+                </form>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('form').forEach(form => {
+            form.addEventListener('submit', () => {
+                localStorage.setItem('scrollPos', window.scrollY);
+            });
+        });
+
+        window.addEventListener('load', function () {
+            const scrollPos = localStorage.getItem('scrollPos');
+            if (scrollPos !== null) {
+                window.scrollTo({ top: parseInt(scrollPos), behavior: 'instant' });
+                localStorage.removeItem('scrollPos');
+            }
+        });
+    </script>
+}

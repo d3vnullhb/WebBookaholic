@@ -1,0 +1,50 @@
+﻿@{    
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+
+<style>
+    .account-sidebar a {
+        text-decoration: none;
+        color: #212529; 
+    }
+
+        .account-sidebar a.text-dark:hover {
+            color: #198754; 
+        }
+
+        .account-sidebar a.fw-bold.text-success {
+            font-weight: 700;
+            color: #198754; 
+        }
+</style>
+
+<ul class="list-unstyled account-sidebar">
+    <li class="mb-2">
+        <a class="@(currentAction == "Info" ? "fw-bold text-success" : "text-dark")" asp-controller="Account" asp-action="Info">
+            Thông tin tài khoản
+        </a>
+    </li>
+    <li class="mb-2">
+        <a class="@(currentAction == "MyOrders" ? "fw-bold text-success" : "text-dark")" asp-controller="Account" asp-action="MyOrders">
+            Đơn hàng của bạn
+        </a>
+    </li>
+    <li class="mb-2">
+        <a class="@(currentAction == "Addresses" && currentController == "Account" ? "fw-bold text-success" : "text-dark")"
+           asp-controller="Account" asp-action="Addresses">
+            Sổ địa chỉ
+        </a>
+    </li>
+    <li class="mb-2">
+        <a class="@(currentAction == "ChangePassword" ? "fw-bold text-success" : "text-dark")" asp-controller="Account" asp-action="ChangePassword">
+            Đổi mật khẩu
+        </a>
+    </li>
+    <li class="mb-2">
+        <form asp-controller="Account" asp-action="Logout" method="post">
+            @Html.AntiForgeryToken()
+            <button class="btn btn-link text-dark p-0" type="submit">Đăng xuất</button>
+        </form>
+    </li>
+</ul>

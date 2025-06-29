@@ -1,0 +1,50 @@
+﻿@model Bookaholic.Models.Order
+
+@{
+    ViewData["Title"] = "Xoá đơn hàng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h2 class="mb-4">Xoá đơn hàng</h2>
+
+<div class="alert alert-warning">
+    <strong>Bạn có chắc chắn muốn xoá đơn hàng này không?</strong>
+</div>
+
+<dl class="row">
+    <dt class="col-sm-3">Người dùng</dt>
+    <dd class="col-sm-9">@Model.User?.Email</dd>
+
+    <dt class="col-sm-3">Họ tên</dt>
+    <dd class="col-sm-9">@Model.FullName</dd>
+
+    <dt class="col-sm-3">Số điện thoại</dt>
+    <dd class="col-sm-9">@Model.Phone</dd>
+
+    <dt class="col-sm-3">Địa chỉ</dt>
+    <dd class="col-sm-9">@Model.Address</dd>
+
+    <dt class="col-sm-3">Ngày đặt</dt>
+    <dd class="col-sm-9">@Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+    <dt class="col-sm-3">Voucher</dt>
+    <dd class="col-sm-9">@Model.Voucher?.Code</dd>
+
+    <dt class="col-sm-3">Tổng tiền</dt>
+    <dd class="col-sm-9 text-danger">@Model.TotalAmount.ToString("N0") đ</dd>
+
+    <dt class="col-sm-3">Thanh toán</dt>
+    <dd class="col-sm-9">@Model.PaymentMethod - @Model.PaymentStatus</dd>
+
+    <dt class="col-sm-3">Trạng thái đơn</dt>
+    <dd class="col-sm-9">@Model.OrderStatus</dd>
+
+    <dt class="col-sm-3">Ghi chú</dt>
+    <dd class="col-sm-9">@Model.Note</dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="OrderId" />
+    <button type="submit" class="btn btn-danger">Xoá đơn hàng</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
+</form>

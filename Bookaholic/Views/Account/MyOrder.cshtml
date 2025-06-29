@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Bookaholic.Models.Order>
+
+@{
+    ViewData["Title"] = "Đơn hàng của bạn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-3 border-end">
+            @Html.Partial("_AccountSidebar")
+        </div>
+
+        <div class="col-md-9">
+            <h4 class="mb-3">📦 Lịch sử đơn hàng</h4>
+
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info">Bạn chưa có đơn hàng nào.</div>
+            }
+            else
+            {
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Mã đơn</th>
+                            <th>Ngày đặt</th>
+                            <th>Trạng thái</th>
+                            <th>Thanh toán</th>
+                            <th>Tổng tiền</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr>
+                                <td>#@order.OrderId</td>
+                                <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                                <td>
+                                    @switch (order.OrderStatus)
+                                    {
+                                        case "Chờ xác nhận":
+                                            <span class="badge bg-secondary">Chờ xác nhận</span>
+                                            break;
+                                        case "Đã xác nhận":
+                                            <span class="badge bg-success">Đã xác nhận</span>
+                                            break;
+                                        case "Đã hủy":
+                                            <span class="badge bg-danger">Đã huỷ</span>
+                                            break;
+                                        default:
+                                            <span class="badge bg-warning text-dark">@order.OrderStatus</span>
+                                            break;
+                                    }
+                                </td>
+                                <td>
+                                    @if (order.PaymentStatus == "Paid")
+                                    {
+                                        <span class="badge bg-success">Đã thanh toán</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning text-dark">Chưa thanh toán</span>
+                                    }
+                                </td>
+                                <td>@order.TotalAmount.ToString("N0") ₫</td>
+                                <td>
+                                    <a class="btn btn-sm btn-outline-primary" href="/Account/OrderDetails/@order.OrderId">Xem</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>

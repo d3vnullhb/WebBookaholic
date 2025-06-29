@@ -1,0 +1,96 @@
+﻿@model Bookaholic.Models.Contact
+
+@{
+    ViewData["Title"] = "Liên hệ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row g-4 align-items-stretch">
+        <!-- 📝 Form liên hệ -->
+        <div class="col-md-6">
+            <div class="p-4 h-100 d-flex flex-column justify-content-between bg-white shadow-sm rounded-3">
+                <h4 class="mb-4 text-success">
+                    <i class="bi bi-envelope-fill me-2 text-success"></i>Liên hệ với Bookaholic
+                </h4>
+
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        @ViewBag.Message
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                }
+
+                <form asp-action="Index" method="post" class="flex-grow-1 d-flex flex-column">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <input asp-for="FullName" class="form-control" placeholder="Họ và tên" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="Email" type="email" class="form-control" placeholder="Email" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <input asp-for="Subject" class="form-control" placeholder="Chủ đề" />
+                        <span asp-validation-for="Subject" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3 flex-grow-1">
+                        <textarea asp-for="Message" class="form-control" rows="4" placeholder="Nội dung"></textarea>
+                        <span asp-validation-for="Message" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Gửi liên hệ</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- 📌 Thông tin liên hệ -->
+        <div class="col-md-6">
+            <div class="p-4 h-100 bg-white shadow-sm rounded-3">
+                <h5 class="mb-4 text-dark fw-semibold d-flex align-items-center">
+                    <i class="bi bi-info-circle me-2 text-danger"></i>
+                    Thông tin liên hệ <span class="text-success ms-1">Bookaholic</span>
+                </h5>
+
+                <p class="text-success fw-semibold mb-3">
+                    <i class="bi bi-book-half me-2 text-success"></i> Bởi vì sách là thế giới
+                </p>
+
+                <ul class="list-unstyled mb-4 text-dark small">
+                    <li class="mb-2">
+                        <i class="bi bi-geo-alt me-2 text-secondary"></i>
+                        38/19A Đường 3/2, P. Hưng Lợi, Q. Ninh Kiều, TP. Cần Thơ
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-envelope me-2 text-secondary"></i>
+                        <a href="mailto:support@bookaholic.vn" class="text-decoration-none text-dark">support@bookaholic.vn</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-facebook me-2 text-secondary"></i>
+                        <a href="https://facebook.com/bookaholic" target="_blank" class="text-decoration-none text-dark">facebook.com/bookaholic</a>
+                    </li>
+                    <li class="mb-2">
+                        <i class="bi bi-telephone me-2 text-secondary"></i>
+                        <a href="tel:0338631274" class="text-decoration-none text-dark">0338 631 274</a>
+                    </li>
+                </ul>
+
+                <figure class="mb-4">
+                    <blockquote class="blockquote text-muted fst-italic mb-0">
+                        “Sách là người bạn không bao giờ phản bội.”
+                    </blockquote>
+                </figure>
+
+                <a href="/Home/About" class="btn btn-outline-success btn-sm">
+                    <i class="bi bi-box-arrow-up-right me-1"></i>Giới thiệu về Bookaholic
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

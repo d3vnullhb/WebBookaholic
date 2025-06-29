@@ -1,0 +1,102 @@
+﻿@model Bookaholic.Models.Order
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h2 class="mb-4">Chi tiết đơn hàng</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">Người dùng</dt>
+            <dd class="col-sm-8">@Model.User?.Email</dd>
+
+            <dt class="col-sm-4">Họ tên</dt>
+            <dd class="col-sm-8">@Model.FullName</dd>
+
+            <dt class="col-sm-4">Số điện thoại</dt>
+            <dd class="col-sm-8">@Model.Phone</dd>
+
+            <dt class="col-sm-4">Địa chỉ</dt>
+            <dd class="col-sm-8">@Model.Address</dd>
+
+            <dt class="col-sm-4">Ngày đặt</dt>
+            <dd class="col-sm-8">@Model.OrderDate.ToString("dd/MM/yyyy HH:mm")</dd>
+
+            <dt class="col-sm-4">Địa chỉ giao hàng</dt>
+            <dd class="col-sm-8">@Model.ShippingAddress</dd>
+
+            <dt class="col-sm-4">Phí ship</dt>
+            <dd class="col-sm-8">@Model.ShippingFee.ToString("N0") đ</dd>
+
+            <dt class="col-sm-4">Mã giảm giá</dt>
+            <dd class="col-sm-8">@Model.Voucher?.Code</dd>
+
+            <dt class="col-sm-4">Giảm giá</dt>
+            <dd class="col-sm-8">@Model.DiscountAmount.ToString("N0") đ</dd>
+
+            <dt class="col-sm-4 fw-bold">Tổng tiền</dt>
+            <dd class="col-sm-8 text-danger fw-bold">@Model.TotalAmount.ToString("N0") đ</dd>
+
+            <dt class="col-sm-4">Hình thức thanh toán</dt>
+            <dd class="col-sm-8">@Model.PaymentMethod</dd>
+
+            <dt class="col-sm-4">Trạng thái thanh toán</dt>
+            <dd class="col-sm-8">
+                @{
+                    var paymentText = Model.PaymentStatus switch
+                    {
+                        "Pending" => "Chờ thanh toán",
+                        "Paid" => "Đã thanh toán",
+                        _ => Model.PaymentStatus 
+                    };
+                }
+                @paymentText
+            </dd>
+            <dt class="col-sm-4">Trạng thái đơn</dt>
+            <dd class="col-sm-8">@Model.OrderStatus</dd>
+        
+            <dt class="col-sm-4">Ghi chú</dt>
+            <dd class="col-sm-8">@Model.Note</dd>
+        </dl>
+    </div>
+</div>
+
+<hr />
+
+<h4 class="mt-4">Danh sách sách trong đơn</h4>
+@if (Model.OrderDetails != null && Model.OrderDetails.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sách</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderDetails)
+            {
+                <tr>
+                    <td>@item.Book?.Title</td>
+                    <td>@item.UnitPrice.ToString("N0") đ</td>
+                    <td>@item.Quantity</td>
+                    <td>@((item.UnitPrice * item.Quantity).ToString("N0") + " đ")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">Đơn hàng này không có sách nào.</p>
+}
+
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model.OrderId" class="btn btn-warning">Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Quay lại</a>
+</div>

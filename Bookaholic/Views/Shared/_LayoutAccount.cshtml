@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<Bookaholic.Models.ApplicationUser> SignInManager
+@inject UserManager<Bookaholic.Models.ApplicationUser> UserManager
+
+@{
+    var user = await UserManager.GetUserAsync(User);
+    var fullName = user?.FirstName + " " + user?.LastName;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"] - Bookaholic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 border-end pe-4">
+                <h5 class="mb-3 fw-bold">TRANG TÀI KHOẢN</h5>
+                <p class="text-success">Xin chào, <strong>@fullName</strong>!</p>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["action"]?.ToString() == "Info" ? "fw-bold text-success" : "")"
+                           asp-controller="Account" asp-action="Info">Thông tin tài khoản</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["action"]?.ToString() == "MyOrders" ? "fw-bold text-success" : "")"
+                           asp-controller="Account" asp-action="MyOrders">Đơn hàng của bạn</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["action"]?.ToString() == "ChangePassword" ? "fw-bold text-success" : "")"
+                           asp-controller="Account" asp-action="ChangePassword">Đổi mật khẩu</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a class="nav-link text-dark @(ViewContext.RouteData.Values["action"]?.ToString() == "AddressBook" ? "fw-bold text-success" : "")"
+                           asp-controller="Account" asp-action="AddressBook">Sổ địa chỉ</a>
+                    </li>
+                    <li class="nav-item">
+                        <form asp-controller="Account" asp-action="Logout" method="post">
+                            <button class="nav-link btn btn-link text-danger p-0 mt-2" type="submit">Đăng xuất</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Content -->
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

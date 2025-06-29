@@ -1,0 +1,105 @@
+﻿@model Bookaholic.Models.Order
+
+@{
+    ViewData["Title"] = "Cập nhật đơn hàng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h2 class="mb-4">📦 Cập nhật đơn hàng</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="Edit" asp-route-id="@Model.OrderId" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="OrderId" />
+
+            <div class="form-group mb-3">
+                <label asp-for="UserId">Người dùng</label>
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="FullName">Họ tên</label>
+                <input asp-for="FullName" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Phone">Số điện thoại</label>
+                <input asp-for="Phone" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Address">Địa chỉ</label>
+                <input asp-for="Address" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="OrderDate">Ngày đặt hàng</label>
+                <input asp-for="OrderDate" type="datetime-local" class="form-control"
+                       value="@Model.OrderDate.ToString("yyyy-MM-ddTHH:mm")" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ShippingAddress">Địa chỉ giao hàng</label>
+                <input asp-for="ShippingAddress" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ShippingFee">Phí vận chuyển</label>
+                <input asp-for="ShippingFee" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="VoucherId">Mã giảm giá</label>
+                <select asp-for="VoucherId" class="form-control" asp-items="ViewBag.VoucherId">
+                    <option value="">-- Không áp dụng --</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="DiscountAmount">Số tiền giảm</label>
+                <input asp-for="DiscountAmount" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="TotalAmount">Tổng tiền</label>
+                <input asp-for="TotalAmount" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PaymentMethod">Phương thức thanh toán</label>
+                <input asp-for="PaymentMethod" class="form-control" />
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="PaymentStatus">Trạng thái thanh toán</label>
+                <select asp-for="PaymentStatus" class="form-control">
+                    <option value="Pending">Chờ thanh toán</option>
+                    <option value="Paid">Đã thanh toán</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="OrderStatus">Trạng thái đơn hàng</label>
+                <select asp-for="OrderStatus" class="form-control">
+                    <option value="Chờ xác nhận">Chờ xác nhận</option>
+                    <option value="Đã xác nhận">Đã xác nhận</option>
+                    <option value="Đang giao">Đang giao</option>
+                    <option value="Hoàn tất">Hoàn tất</option>
+                    <option value="Đã hủy">Đã hủy</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Note">Ghi chú</label>
+                <input asp-for="Note" class="form-control" />
+            </div>
+
+            <div class="form-group mt-4">
+                <button type="submit" class="btn btn-success">💾 Lưu thay đổi</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">↩️ Quay lại</a>
+            </div>
+        </form>
+    </div>
+</div>

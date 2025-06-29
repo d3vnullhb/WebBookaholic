@@ -1,0 +1,29 @@
+﻿@model Bookaholic.Models.BookReview
+
+@{
+    ViewData["Title"] = "Chi tiết đánh giá";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3 text-success fw-bold">📘 Đánh giá sách: @Model.Book.Title</h2>
+
+    <div class="mb-3">
+        <strong>Người viết:</strong> @Model.User.FirstName @Model.User.LastName (@Model.User.Email)
+    </div>
+
+    <div class="mb-3">
+        <strong>Ngày đăng:</strong> @Model.CreatedAt.ToString("dd/MM/yyyy")
+    </div>
+
+    <div class="mb-3">
+        <strong>Tiêu đề:</strong> @Model.Title
+    </div>
+
+    <div class="mb-3">
+        <strong>Nội dung đánh giá:</strong>
+        <p>@Model.Content</p>
+    </div>
+
+    <a asp-action="Index" class="btn btn-outline-success">← Quay lại danh sách</a>
+</div>

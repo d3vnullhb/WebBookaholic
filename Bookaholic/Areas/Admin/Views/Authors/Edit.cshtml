@@ -1,0 +1,65 @@
+﻿@model Bookaholic.Models.Author
+
+@{
+    ViewData["Title"] = "Chỉnh sửa tác giả";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h2 class="text-primary mb-4">✏️ Chỉnh sửa tác giả</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="AuthorId" />
+
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label fw-bold">Tên tác giả</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Ảnh hiện tại</label><br />
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="@Model.Name" style="height: 100px; border-radius: 6px;" />
+                }
+                else
+                {
+                    <span>Không có ảnh</span>
+                }
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-bold">Chọn ảnh mới (nếu thay đổi)</label>
+                <input type="file" name="ImageFile" class="form-control" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Bio" class="form-label fw-bold">Tiểu sử</label>
+                <textarea asp-for="Bio" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Bio" class="text-danger"></span>
+            </div>
+
+            <input asp-for="CreatedAt" type="hidden" />
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-save"></i> Lưu thay đổi
+                </button>
+                <a href="/Admin/Authors" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@4.0.0/dist/jquery.validate.unobtrusive.min.js"></script>
+}

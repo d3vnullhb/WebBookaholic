@@ -1,0 +1,35 @@
+﻿@model Bookaholic.Models.BookReview
+@{
+    ViewData["Title"] = "Xoá bài viết";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-4 text-danger">🗑️ Xoá bài viết</h3>
+
+<div class="alert alert-warning">
+    <strong>Bạn có chắc chắn muốn xoá bài viết này không?</strong> Hành động này không thể hoàn tác.
+</div>
+
+<div class="mb-4">
+    <dl class="row">
+        <dt class="col-sm-3">Tiêu đề</dt>
+        <dd class="col-sm-9">@Model.Title</dd>
+
+        <dt class="col-sm-3">Sách</dt>
+        <dd class="col-sm-9">@Model.Book?.Title</dd>
+
+        <dt class="col-sm-3">Ngày tạo</dt>
+        <dd class="col-sm-9">@Model.CreatedAt.ToString("dd/MM/yyyy HH:mm")</dd>
+
+        <dt class="col-sm-3">Hiển thị</dt>
+        <dd class="col-sm-9">@((Model.IsPublished) ? "✅ Có" : "❌ Không")</dd>
+    </dl>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ReviewId" />
+    <button type="submit" class="btn btn-danger">
+        <i class="bi bi-trash"></i> Xác nhận xoá
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">Huỷ</a>
+</form>

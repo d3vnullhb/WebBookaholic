@@ -1,0 +1,56 @@
+﻿@model Bookaholic.Models.UserAddress
+
+@{
+    ViewData["Title"] = "Chỉnh sửa địa chỉ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-3 border-end">
+            @Html.Partial("_AccountSidebar")
+        </div>
+        <div class="col-md-9">
+            <h4>📍 Chỉnh sửa địa chỉ</h4>
+
+            <form asp-action="EditAddress" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <label asp-for="Province" class="form-label">Tỉnh / Thành phố</label>
+                    <input asp-for="Province" class="form-control" />
+                    <span asp-validation-for="Province" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="District" class="form-label">Quận / Huyện</label>
+                    <input asp-for="District" class="form-control" />
+                    <span asp-validation-for="District" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Ward" class="form-label">Phường / Xã</label>
+                    <input asp-for="Ward" class="form-control" />
+                    <span asp-validation-for="Ward" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Detail" class="form-label">Địa chỉ chi tiết</label>
+                    <input asp-for="Detail" class="form-control" />
+                    <span asp-validation-for="Detail" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="IsDefault" class="form-check-input" />
+                    <label asp-for="IsDefault" class="form-check-label">Đặt làm địa chỉ mặc định</label>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Addresses" class="btn btn-secondary">⬅ Quay lại</a>
+                    <input type="submit" value="Lưu thay đổi" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

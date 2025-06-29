@@ -1,0 +1,2449 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\createaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\createaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\myorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\myorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\addresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\addresses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\cartitems\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\editinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\editinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\_accountsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\_accountsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\deleteaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\deleteaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\account\\editaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\account\\editaddress.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\_layoutaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\_layoutaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\orders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\orders\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\bookreviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\bookreviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\bookreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\bookreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\authorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\authors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\review\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\review\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\review\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\bookreviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\bookreviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\bookreviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\bookreviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\bookreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\contacts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\contacts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\checkout\\paymentresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\checkout\\paymentresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\services\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\bookreviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\bookreviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\bookreviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\bookreviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\cartitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\bookaholic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\bookaholic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\contactscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\contactscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\components\\cartbadge\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\components\\cartbadge\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewcomponent\\cartbadgeviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewcomponent\\cartbadgeviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\storeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\viewmodels\\storeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\voucherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\voucherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\authors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\authors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\authors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\authors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\externallogins.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\externallogins.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\promotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\subscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\models\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250604041538_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250604041538_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250605052849_updateauthorimageurlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250605052849_updateauthorimageurlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250617093506_renamecreatedattosentat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250617093506_renamecreatedattosentat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250618023919_updateorderfields_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250618023919_updateorderfields_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250618023527_makereceiptimagenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250618023527_makereceiptimagenullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250618023231_updateorderfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250618023231_updateorderfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\data\\migrations\\20250627105037_adduseraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\data\\migrations\\20250627105037_adduseraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwKIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T07:03:28.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateAddress.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\CreateAddress.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\CreateAddress.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\CreateAddress.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\CreateAddress.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:56:08.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserAddress.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\UserAddress.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\UserAddress.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\UserAddress.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\UserAddress.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T10:49:29.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\OrderDetails.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\OrderDetails.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAD4vxkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T21:47:40.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:47:40.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\MyOrder.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\MyOrder.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\MyOrder.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\MyOrder.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:13:15.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\appsettings.json",
+              "RelativeDocumentMoniker": "Bookaholic\\appsettings.json",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\appsettings.json",
+              "RelativeToolTip": "Bookaholic\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T13:47:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAIwPUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:02:34.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckOutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\CheckOutViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CheckOutViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\CheckOutViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:32:06.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:44:24.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Order.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Order.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwDUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:04:01.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T08:46:24.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAwwFoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:29:19.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T06:15:15.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAADwv7AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T02:42:12.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvw8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:04:25.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Addresses.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Addresses.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Addresses.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Addresses.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\Addresses.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:53:52.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T12:08:44.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T09:38:08.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T03:17:03.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T06:59:16.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T07:10:22.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T09:44:13.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Info.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Info.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Info.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Info.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\Info.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:09:34.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\CartItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\CartItems\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\CartItems\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\CartItems\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCwAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:37:29.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditInfo.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\EditInfo.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditInfo.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\EditInfo.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:11:49.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_AccountSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:37:09.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T06:46:19.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditAddress.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditAddress.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\EditAddress.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditAddress.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\EditAddress.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:56:54.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DeleteAddress.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T11:57:34.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "20250627105037_AddUserAddress.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T10:50:38.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Book.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wCwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:02:52.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:45:17.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:15:41.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:12:53.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_LayoutAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T05:29:58.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:49:40.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Program.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Program.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Program.cs",
+              "RelativeToolTip": "Bookaholic\\Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwHAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:09:27.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:38:08.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:34:37.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:00:08.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BookReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:37:26.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:44:44.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:43:54.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T06:54:33.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:17:05.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAuwIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:24:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA2wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:16:29.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:30:42.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:12:39.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AuthorsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AuthorsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\AuthorsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AuthorsController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\AuthorsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T07:56:14.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Authors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Authors\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T07:57:24.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Review\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Review\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T04:15:56.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Review\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Review\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T03:59:05.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:59:24.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:58:55.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T03:56:25.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T13:18:14.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "BookReview.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\BookReview.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\BookReview.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\BookReview.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\BookReview.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAywCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:08:09.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:20:01.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAIBJwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:44:42.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAIBJwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:43:12.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:43:54.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAIBJwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:42:02.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T13:46:57.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAuwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:33:08.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Contact.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Contact.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Contact.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:04:48.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Author.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Author.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:51:23.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "_Layoutadmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T15:22:03.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Category.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T02:51:44.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBJwIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:31:44.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:32:19.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T03:13:48.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Contacts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Contacts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Contacts\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Contacts\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAIBJwDUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:38:30.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:45:23.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:42:17.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "StatisticsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAswEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:55:18.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwHgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T05:56:57.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T06:35:52.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:42:49.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "Bookaholic\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "Bookaholic\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-03T13:44:42.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Services\\VnPayService.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Services\\VnPayService.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Services\\VnPayService.cs",
+              "RelativeToolTip": "Bookaholic\\Services\\VnPayService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAIBJwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T01:55:37.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:13:24.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "PaymentResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\PaymentResponseModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentResponseModel.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\PaymentResponseModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T01:58:39.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "PaymentResult.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T02:09:48.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "PaymentInformationModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentInformationModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\PaymentInformationModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentInformationModel.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\PaymentInformationModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T01:58:19.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:20:11.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\CartItem.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:03:19.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:59:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T10:58:29.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T07:15:04.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAswFQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T02:08:17.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "20250618023231_UpdateOrderFields.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:32:31.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "20250618023527_MakeReceiptImageNullable.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:35:28.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "20250618023919_UpdateOrderFields_v2.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T02:39:19.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\CartItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:22:31.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T05:32:47.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Bookaholic.csproj",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Bookaholic.csproj",
+              "RelativeDocumentMoniker": "Bookaholic\\Bookaholic.csproj",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Bookaholic.csproj",
+              "RelativeToolTip": "Bookaholic\\Bookaholic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T13:14:59.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "ContactsController1.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ContactsController1.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Controllers\\ContactsController1.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ContactsController1.cs",
+              "RelativeToolTip": "Bookaholic\\Controllers\\ContactsController1.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T10:36:33.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T12:00:51.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "CartBadgeViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
+              "RelativeToolTip": "Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:58:33.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CartItemViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\CartItemViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA2wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T11:24:54.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "20250617093506_RenameCreatedAtToSentAt.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T09:35:06.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "BookListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\BookListViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\BookListViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\BookListViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\BookListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T08:40:46.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Authors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Authors\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T08:22:44.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "StoreViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\StoreViewModel.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\StoreViewModel.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\StoreViewModel.cs",
+              "RelativeToolTip": "Bookaholic\\ViewModels\\StoreViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:16:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:42:34.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:42:39.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:42:44.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:38:02.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:36:40.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "VouchersController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:36:47.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T02:44:13.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T03:51:16.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T03:54:27.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwB8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:22:06.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:23:22.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:22:58.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T05:23:43.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:43:53.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T04:19:39.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T15:33:43.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "20250605052849_UpdateAuthorImageUrlNullable.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T05:28:50.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "DownloadPersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:01:16.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "Disable2fa.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T05:00:42.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "DeletePersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:59:46.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:57:48.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "EnableAuthenticator.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:56:31.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "ExternalLogins.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:55:29.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:37:52.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "GenerateRecoveryCodes.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:54:05.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:53:23.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:52:44.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "ResetAuthenticator.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:52:14.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "SetPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:51:31.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "TwoFactorAuthentication.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:50:43.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:50:01.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "ConfirmEmailChange.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:49:14.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:47:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "LoginWithRecoveryCode.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:45:01.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "LoginWith2fa.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:44:27.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:43:35.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:42:47.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "ExternalLogin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:41:29.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "ResendEmailConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:46:41.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:46:12.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:33:39.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "20250604041538_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
+              "RelativeToolTip": "Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:15:38.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "Promotion.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Promotion.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Promotion.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Promotion.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Promotion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:05:47.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "Subscriber.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Subscriber.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Subscriber.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Subscriber.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Subscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:05:28.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "Voucher.cs",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Voucher.cs",
+              "RelativeDocumentMoniker": "Bookaholic\\Models\\Voucher.cs",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Voucher.cs",
+              "RelativeToolTip": "Bookaholic\\Models\\Voucher.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAxwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T04:03:39.857Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+﻿@model Bookaholic.Models.Book
+
+@{
+    ViewData["Title"] = "Xoá sách";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-4 text-danger">🗑️ Xoá sách</h3>
+
+<h5>Bạn có chắc chắn muốn xoá sách này không?</h5>
+
+<div class="row mt-3">
+    <div class="col-md-8">
+        <dl class="row">
+            <dt class="col-sm-3 fw-bold">Tiêu đề</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3 fw-bold">Tác giả</dt>
+            <dd class="col-sm-9">@Model.Author?.Name</dd>
+
+            <dt class="col-sm-3 fw-bold">Người dịch</dt>
+            <dd class="col-sm-9">@Model.Translator</dd>
+
+            <dt class="col-sm-3 fw-bold">Nhà xuất bản</dt>
+            <dd class="col-sm-9">@Model.Publisher</dd>
+
+            <dt class="col-sm-3 fw-bold">Giá bán</dt>
+            @string.Format("{0:N0} đ", Model.Price)
+            <dt class="col-sm-3 fw-bold">Thể loại</dt>
+            <dd class="col-sm-9">@Model.Category?.CategoryName</dd>
+
+            <dt class="col-sm-3 fw-bold">Ảnh sách</dt>
+            <dd class="col-sm-9">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <img src="@Model.ImageUrl" alt="Ảnh sách" style="height: 100px; border-radius: 6px;" />
+                }
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" method="post" class="mt-4">
+            <input type="hidden" asp-for="BookId" />
+            <button type="submit" class="btn btn-danger me-2">
+                <i class="bi bi-trash"></i> Xoá
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Quay lại danh sách
+            </a>
+        </form>
+    </div>
+</div>

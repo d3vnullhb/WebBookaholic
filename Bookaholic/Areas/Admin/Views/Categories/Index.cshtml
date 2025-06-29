@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Bookaholic.Models.Category>
+
+@{
+    ViewData["Title"] = "Danh sách thể loại";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<style>
+    .table th.date-col, .table td.date-col {
+        width: 340px; 
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+        .action-buttons a {
+            white-space: nowrap;
+        }
+</style>
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-area="Admin" asp-controller="Categories" asp-action="Create" class="btn btn-success mb-3">
+        ➕ Thêm thể loại
+    </a>
+</p>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-success text-center">
+        <tr>
+            <th>Tên thể loại</th>
+            <th class="date-col">Ngày tạo</th>
+            <th class="action-col">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryName</td>
+                <td class="date-col">@item.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td class="action-col">
+                    <div class="action-buttons">
+                        <a asp-action="Edit" asp-route-id="@item.CategoryId" class="btn btn-sm btn-primary">
+                            <i class="bi bi-pencil-square"></i> Sửa
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.CategoryId" class="btn btn-sm btn-secondary">
+                            <i class="bi bi-eye"></i> Chi tiết
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.CategoryId"
+                           onclick="return confirm('Bạn chắc chắn muốn xoá thể loại này?');"
+                           class="btn btn-sm btn-danger">
+                            <i class="bi bi-trash"></i> Xoá
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="d-flex justify-content-center mt-4">
+        <ul class="pagination">
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1 })">←</a>
+            </li>
+
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1 })">→</a>
+            </li>
+        </ul>
+    </div>
+}
+

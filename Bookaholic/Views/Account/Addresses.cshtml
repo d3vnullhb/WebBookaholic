@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Bookaholic.Models.UserAddress>
+
+@{
+    ViewData["Title"] = "Sổ địa chỉ";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-3 border-end">
+            @Html.Partial("_AccountSidebar")
+        </div>
+        <div class="col-md-9">
+            <h4>📍 Sổ địa chỉ</h4>
+            <a asp-action="CreateAddress" class="btn btn-success mb-3">+ Thêm địa chỉ mới</a>
+
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info">Bạn chưa có địa chỉ nào.</div>
+            }
+            else
+            {
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Địa chỉ</th>
+                            <th>Mặc định</th>
+                            <th>Hành động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Detail, @item.Ward, @item.District, @item.Province</td>
+                                <td>
+                                    @if (item.IsDefault)
+                                    {
+                                        <span class="badge bg-success">Mặc định</span>
+                                    }
+                                </td>
+                                <td>
+                                    <a asp-action="EditAddress" asp-route-id="@item.Id" class="btn btn-sm btn-primary">Sửa</a>
+                                    <a asp-action="DeleteAddress" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+        </div>
+    </div>
+</div>

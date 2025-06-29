@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Bookaholic.Models.ApplicationUser>
+@using Microsoft.AspNetCore.Identity
+@using Bookaholic.Models
+@inject UserManager<Bookaholic.Models.ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Quản lý người dùng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+    var currentUserId = UserManager.GetUserId(User);
+    var search = Context.Request.Query["search"];
+}
+
+<h3 class="mb-4">👥 Quản lý người dùng</h3>
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form method="get" class="mb-3 d-flex" style="gap: 10px;">
+    <input type="text" name="search" class="form-control" placeholder="🔍 Tìm theo tên người dùng..." value="@search" />
+    <button type="submit" class="btn btn-success">
+        <i class="bi bi-search"></i> Tìm
+    </button>
+
+    @if (!string.IsNullOrEmpty(search))
+    {
+        <a href="@Url.Action("Index")" class="btn btn-secondary">
+            <i class="bi bi-arrow-counterclockwise"></i> Đặt lại
+        </a>
+    }
+
+    <!-- Nếu sau này muốn cho phép tạo user thì bỏ comment dưới ra -->
+    @* <a href="@Url.Action("Create")" class="btn btn-primary ms-auto">
+        <i class="bi bi-person-plus"></i> Thêm người dùng
+    </a> *@
+</form>
+
+<table class="table table-bordered table-hover text-center align-middle">
+    <thead class="table-success">
+        <tr>
+            <th>Email</th>
+            <th>Tên đăng nhập</th>
+            <th>Khóa tài khoản</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            var isLocked = user.LockoutEnd != null && user.LockoutEnd > DateTime.Now;
+            <tr>
+                <td>@user.Email</td>
+                <td>@user.UserName</td>
+                <td>
+                    @(isLocked ? "🔒 Bị khóa" : "✔️ Hoạt động")
+                </td>
+                <td class="action-buttons">
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-warning">
+                        <i class="bi bi-pencil-square"></i> Sửa
+                    </a>
+
+                    @if (user.Id != currentUserId)
+                    {
+                        <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-sm btn-danger" onclick="return confirm('Bạn chắc chắn muốn xoá người dùng này?');">
+                            <i class="bi bi-trash"></i> Xoá
+                        </a>
+                    }
+
+                   @if (user.Id != currentUserId)
+{
+                        <a asp-action="LockUnlock" asp-route-id="@user.Id" class="btn btn-sm btn-secondary">
+                            <i class="bi bi-shield-lock"></i> @(isLocked ? "Mở khóa" : "Khoá")
+                        </a>
+
+                        <a asp-action="AssignRole" asp-route-id="@user.Id" class="btn btn-sm btn-info text-white">
+                            <i class="bi bi-person-gear"></i> Vai trò
+                        </a>
+}
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="mt-4 d-flex justify-content-center gap-2">
+        @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+        {
+            if (i == (int)ViewBag.CurrentPage)
+            {
+                <span class="px-3 py-1 bg-success text-white rounded">@i</span>
+            }
+            else
+            {
+                <a href="@Url.Action("Index", new { page = i, search = ViewBag.Search })"
+                   class="px-3 py-1 border rounded text-decoration-none text-dark bg-light">@i</a>
+            }
+        }
+    </div>
+}
+
+
+<style>
+    .action-buttons {
+        display: flex;
+        gap: 6px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .table th, .table td {
+        vertical-align: middle;
+    }
+</style>

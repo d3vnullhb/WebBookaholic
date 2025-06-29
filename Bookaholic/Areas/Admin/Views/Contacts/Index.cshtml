@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Bookaholic.Models.Contact>
+@{
+    ViewData["Title"] = "Quản lý liên hệ";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h3 class="mb-3">📬 Quản lý liên hệ khách hàng</h3>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+
+<form method="get" class="row mb-3 align-items-end">
+    <div class="col-md-3">
+        <label class="form-label">Từ ngày</label>
+        <input type="date" name="fromDate" value="@Context.Request.Query["fromDate"]" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Đến ngày</label>
+        <input type="date" name="toDate" value="@Context.Request.Query["toDate"]" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Tìm tên/email</label>
+        <input type="text" name="search" value="@Context.Request.Query["search"]" class="form-control" />
+    </div>
+    <div class="col-md-3 d-flex gap-2">
+        <button type="submit" class="btn btn-outline-primary">🔍 Lọc</button>
+        <a href="@Url.Action("Index", "Contacts", new { area = "Admin" })" class="btn btn-secondary">🔄 Đặt lại</a>
+    </div>
+</form>
+
+<!-- 🔴 Form xoá theo bộ lọc hiện tại -->
+<form asp-action="DeleteOld" method="post" onsubmit="return confirm('Bạn chắc chắn muốn xoá các liên hệ theo bộ lọc này?');">
+    <input type="hidden" name="fromDate" value="@Context.Request.Query["fromDate"]" />
+    <input type="hidden" name="toDate" value="@Context.Request.Query["toDate"]" />
+    <input type="hidden" name="search" value="@Context.Request.Query["search"]" />
+    <button class="btn btn-danger mb-3">🗑 Xoá liên hệ theo bộ lọc</button>
+</form>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-light text-center">
+        <tr>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Chủ đề</th>
+            <th>Thời gian</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.FullName</td>
+                <td>@c.Email</td>
+                <td>@c.Subject</td>
+                <td>@c.SentAt.ToString("dd/MM/yyyy HH:mm")</td>
+                <td class="text-center">
+                    <div class="d-flex justify-content-center gap-2">
+                        <a asp-action="Details" asp-route-id="@c.Id" class="btn btn-sm btn-info">
+                            <i class="bi bi-eye"></i> Xem
+                        </a>
+                        <form asp-action="Delete" asp-route-id="@c.Id" method="post" onsubmit="return confirm('Bạn chắc chắn muốn xoá liên hệ này?');" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="bi bi-trash"></i> Xoá
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="d-flex justify-content-center mt-4">
+        <ul class="pagination">
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new {
+                    page = ViewBag.CurrentPage - 1,
+                    search = ViewBag.Search,
+                    fromDate = ViewBag.FromDate,
+                    toDate = ViewBag.ToDate
+                })">←</a>
+            </li>
+
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new {
+                        page = i,
+                        search = ViewBag.Search,
+                        fromDate = ViewBag.FromDate,
+                        toDate = ViewBag.ToDate
+                    })">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new {
+                    page = ViewBag.CurrentPage + 1,
+                    search = ViewBag.Search,
+                    fromDate = ViewBag.FromDate,
+                    toDate = ViewBag.ToDate
+                })">→</a>
+            </li>
+        </ul>
+    </div>
+}

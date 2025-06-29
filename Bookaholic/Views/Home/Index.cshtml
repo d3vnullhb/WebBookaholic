@@ -1,0 +1,104 @@
+﻿@model Bookaholic.ViewModels.StoreViewModel
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+
+<div class="banner mb-5">
+    <img src="/images/banner.jpg"
+         class="img-fluid w-100 rounded"
+         style="max-height: 620px; object-fit: cover;"
+         alt="Banner Bookaholic" />
+
+</div>
+
+<!-- Tác giả nổi bật -->
+<section class="mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="fw-bold text-success">Tác giả nổi bật</h3>
+        <a href="/Authors" class="btn btn-outline-success">Xem thêm</a>
+    </div>
+    <div class="row text-center g-4">
+        @foreach (var author in Model.Authors)
+        {
+            <div class="col-6 col-sm-4 col-md-2">
+                <a href="/Authors/Details/@author.AuthorId">
+                    <img src="@author.ImageUrl"
+                         class="rounded-circle shadow"
+                         style="width: 120px; height: 120px; object-fit: cover;" />
+                </a>
+                <p class="mt-2 fw-semibold">@author.Name</p>
+            </div>
+        }
+    </div>
+</section>
+
+<!-- Sách -->
+<section class="mb-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="fw-bold text-success">Sách</h3>
+        <a href="/Books" class="btn btn-outline-success">Xem thêm</a>
+    </div>
+    <div class="row">
+        @foreach (var book in Model.Books)
+        {
+            <div class="col-md-3 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <a href="/Books/Details/@book.BookId">
+                        <img src="@book.ImageUrl"
+                             class="card-img-top"
+                             style="height: 350px; object-fit: cover;" />
+                    </a>
+                    <div class="card-body text-center d-flex flex-column justify-content-between">
+                        <h6 class="card-title fw-bold">
+                            <a href="/Books/Details/@book.BookId"
+                               class="text-decoration-none text-dark">
+                                @book.Title
+                            </a>
+                        </h6>
+                        <p class="text-muted mb-1">Tác giả: @book.Author?.Name</p>
+                        <p class="text-success fw-semibold mb-3">
+                            @string.Format("{0:N0} đ", book.Price)
+                        </p>
+
+                        <div class="d-flex justify-content-center gap-2 mt-auto">
+                            <a href="/Books/Details/@book.BookId" class="btn btn-outline-secondary btn-sm px-3">
+                                <i class="bi bi-eye me-1"></i> Xem
+                            </a>
+                            <form asp-controller="CartItems" asp-action="AddToCart" method="post">
+                                <input type="hidden" name="bookId" value="@book.BookId" />
+                                <button type="submit" class="btn btn-outline-primary btn-sm px-3">
+                                    <i class="bi bi-cart-plus me-1"></i> Giỏ
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<!-- Giới thiệu Bookaholic -->
+<section class="mb-5">
+    <div class="container py-4 bg-light rounded shadow-sm">
+        <div class="row align-items-center">
+            <!-- Text bên trái -->
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h3 class="fw-bold text-success">Bookaholic</h3>
+                <p class="fst-italic text-muted">Bởi vì sách là thế giới</p>
+                <p>
+                    Bookaholic là nơi kết nối những người yêu sách, khám phá tác phẩm, tác giả và chia sẻ cảm hứng đọc mỗi ngày.
+                    Với mục tiêu lan toả tri thức, chúng tôi mang đến trải nghiệm đọc sách phong phú và cộng đồng đam mê đọc thực thụ.
+                </p>
+                <a asp-controller="Home" asp-action="About" class="btn btn-success px-4">Xem thêm</a>
+            </div>
+
+            <!-- Ảnh bên phải -->
+            <div class="col-md-6">
+                <img src="~/images/anhtranggioithieu.jpg" alt="Giới thiệu Bookaholic" class="img-fluid rounded shadow-sm" />
+            </div>
+        </div>
+    </div>
+</section>
+

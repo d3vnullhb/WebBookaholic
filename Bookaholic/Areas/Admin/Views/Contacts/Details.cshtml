@@ -1,0 +1,26 @@
+﻿@model Bookaholic.Models.Contact
+@{
+    ViewData["Title"] = "Chi tiết liên hệ";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+}
+
+<h4 class="mb-4">📄 Chi tiết liên hệ</h4>
+
+<dl class="row">
+    <dt class="col-sm-3">Họ và tên:</dt>
+    <dd class="col-sm-9">@Model.FullName</dd>
+
+    <dt class="col-sm-3">Email:</dt>
+    <dd class="col-sm-9">@Model.Email</dd>
+
+    <dt class="col-sm-3">Chủ đề:</dt>
+    <dd class="col-sm-9">@Model.Subject</dd>
+
+    <dt class="col-sm-3">Nội dung:</dt>
+    <dd class="col-sm-9">@Model.Message</dd>
+
+    <dt class="col-sm-3">Thời gian gửi:</dt>
+    <dd class="col-sm-9">@Model.SentAt.ToString("dd/MM/yyyy HH:mm")</dd>
+</dl>
+
+<a asp-action="Index" class="btn btn-secondary">⬅ Quay lại danh sách</a>

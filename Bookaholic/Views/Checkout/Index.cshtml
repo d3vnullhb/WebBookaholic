@@ -1,0 +1,93 @@
+﻿@model Bookaholic.ViewModels.CheckOutViewModel
+@{
+    ViewData["Title"] = "Thanh toán";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-4">
+    <h2 class="mb-4 fw-bold text-success">🛒 Thông tin thanh toán</h2>
+
+    <form asp-action="PlaceOrder" method="post">
+        <div class="row">
+            <!-- Thông tin người nhận -->
+            <div class="col-md-7">
+                <h5 class="mb-3 fw-semibold">1. Thông tin người nhận</h5>
+
+                <div class="mb-3">
+                    <label asp-for="FullName" class="form-label fw-bold"></label>
+                    <input asp-for="FullName" class="form-control" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Phone" class="form-label fw-bold"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label fw-bold"></label>
+                    <input asp-for="Email" class="form-control" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Address" class="form-label fw-bold"></label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Note" class="form-label fw-bold">Ghi chú</label>
+                    <textarea asp-for="Note" class="form-control"></textarea>
+                </div>
+
+                <!-- Phương thức thanh toán -->
+                <h5 class="mt-4 fw-semibold">2. Phương thức thanh toán</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="COD" checked />
+                    <label class="form-check-label">Thanh toán khi nhận hàng (COD)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" asp-for="PaymentMethod" value="VNPAY" />
+                    <label class="form-check-label">Thanh toán qua VNPAY</label>
+                </div>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+
+            <!-- Đơn hàng -->
+            <div class="col-md-5">
+                <h5 class="mb-3 fw-semibold">3. Đơn hàng của bạn</h5>
+                <div class="border p-3 rounded shadow-sm bg-light">
+                    @foreach (var item in Model.Items)
+                    {
+                        <div class="d-flex justify-content-between mb-2">
+                            <div>@item.Book.Title</div>
+                            <div>@item.Quantity x @(((decimal)item.Book.OriginalPrice).ToString("n0"))₫</div>
+                        </div>
+                    }
+
+                    <hr />
+                    <div class="d-flex justify-content-between">
+                        <strong>Tạm tính:</strong>
+                        <span>@Model.Total.ToString("n0")₫</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <strong>Phí giao hàng:</strong>
+                        <span>@Model.ShippingFee.ToString("n0")₫</span>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between fs-5 text-danger fw-bold">
+                        <span>Tổng cộng:</span>
+                        <span>@Model.GrandTotal.ToString("n0")₫</span>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-success w-100 mt-4">Đặt hàng</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

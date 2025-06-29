@@ -1,0 +1,64 @@
+﻿@model Bookaholic.Models.Order
+
+@{
+    ViewData["Title"] = "Chi tiết đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container py-4">
+    <h4>📦 Đơn hàng #@Model.OrderId</h4>
+    <p><strong>Ngày đặt:</strong> @Model.OrderDate.ToString("dd/MM/yyyy")</p>
+    <p>
+    <p>
+        <strong>Trạng thái đơn hàng:</strong>
+        @Model.OrderStatus
+    </p>
+     
+    <p>
+        <strong>Trạng thái thanh toán:</strong>
+        @{
+            var payment = Model.PaymentStatus;
+            var paymentText = payment switch
+            {
+                "Pending" => "Chưa thanh toán",
+                "Paid" => "Đã thanh toán",            
+                _ => payment
+            };
+        }
+        @paymentText
+    </p>
+    <p><strong>Phí vận chuyển:</strong> @Model.ShippingFee.ToString("N0") đ</p>
+    <p><strong>Tổng tiền:</strong> @Model.TotalAmount.ToString("N0") đ</p>
+
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Sách</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                bool isFirst = true;
+            }
+            @foreach (var item in Model.OrderDetails)
+            {
+                var thanhTien = item.Book.OriginalPrice * item.Quantity;
+                if (isFirst)
+                {
+                    thanhTien += Model.ShippingFee;
+                    isFirst = false;
+                }
+                <tr>
+                    <td>@item.Book.Title</td>
+                    <td>@(((decimal)item.Book.OriginalPrice).ToString("N0")) đ</td>
+                    <td>@item.Quantity</td>
+                    <td>@(((decimal)thanhTien).ToString("N0")) đ</td>
+                </tr>
+            }
+        </tbody>
+    </table>     
+    <a asp-action="MyOrders" class="btn btn-secondary mt-2">← Quay lại danh sách</a>
+</div>

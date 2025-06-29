@@ -1,0 +1,151 @@
+﻿@model IEnumerable<Bookaholic.Models.Book>
+
+@{
+    ViewData["Title"] = "Quản lý sách";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+    var search = Context.Request.Query["search"];
+}
+
+<style>
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+    }
+
+        .action-buttons a {
+            white-space: nowrap;
+        }
+
+    .table td, .table th {
+        vertical-align: middle;
+    }
+
+        .table th:nth-child(1) {
+            width: 160px;
+        }
+        /* Tiêu đề */
+        .table th:nth-child(10) {
+            width: 80px;
+        }
+        /* Ảnh */
+        .table th:nth-child(11) {
+            width: 180px;
+        }
+    /* Thao tác */
+</style>
+
+<h3 class="mb-4">📚 Quản lý sách</h3>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <a asp-action="Create" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Thêm sách
+    </a>
+
+    <form method="get" asp-action="Index" class="d-flex" style="gap: 10px;">
+        <input type="text" name="search" class="form-control" placeholder="🔍 Tìm theo tên sách..." value="@search" />
+        <button type="submit" class="btn btn-outline-secondary">
+            <i class="bi bi-search"></i> Tìm
+        </button>
+
+        @if (!string.IsNullOrEmpty(search))
+        {
+            <a href="@Url.Action("Index")" class="btn btn-secondary">
+                <i class="bi bi-arrow-counterclockwise"></i> Đặt lại
+            </a>
+        }
+    </form>
+
+</div>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-success text-center">
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Tác giả</th>
+            <th>Người dịch</th>
+            <th>NXB</th>
+            <th>Trang</th>
+            <th>Năm</th>
+            <th>Giá gốc</th>
+            <th>Tồn</th>
+            <th>Thể loại</th>
+            <th>Ảnh</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Author?.Name</td>
+                <td>@item.Translator</td>
+                <td>@item.Publisher</td>
+                <td>@item.Pages</td>
+                <td>@item.PublishYear</td>
+                <td class="text-end fw-bold">@item.OriginalPrice.ToString("N0") đ</td>
+                <td>@item.Quantity</td>
+                <td>@item.Category?.CategoryName</td>
+                <td class="text-center">
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" style="height: 60px; border-radius: 6px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">(không ảnh)</span>
+                    }
+                </td>
+                <td class="text-center">
+                    <div class="action-buttons">
+                        <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-sm btn-primary">
+                            <i class="bi bi-pencil-square"></i> Sửa
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-sm btn-secondary">
+                            <i class="bi bi-eye"></i> Chi tiết
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-sm btn-danger"
+                           onclick="return confirm('Xoá sách &quot;@item.Title&quot;?');">
+                            <i class="bi bi-trash"></i> Xoá
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="d-flex justify-content-center mt-4">
+        <ul class="pagination">
+
+            <!-- Nút Prev -->
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1, search = ViewBag.Search })">←</a>
+            </li>
+
+            <!-- Các số trang -->
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i, search = ViewBag.Search })">@i</a>
+                </li>
+            }
+
+            <!-- Nút Next -->
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1, search = ViewBag.Search })">→</a>
+            </li>
+        </ul>
+    </div>
+}
+
+
+@section Scripts {
+    <script>
+        // Auto-focus vào ô tìm kiếm
+        document.querySelector('input[name="search"]').focus();
+    </script>
+}

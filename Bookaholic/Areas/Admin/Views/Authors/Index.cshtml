@@ -1,0 +1,133 @@
+﻿@model IEnumerable<Bookaholic.Models.Author>
+@{
+    ViewData["Title"] = "Quản lý tác giả";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+    var search = Context.Request.Query["search"];
+}
+
+<style>
+    .bio-cell {
+        max-width: 300px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+    .action-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: nowrap;
+    }
+
+        .action-buttons a {
+            white-space: nowrap;
+        }
+
+    .table td, .table th {
+        vertical-align: middle;
+    }
+
+        .table th:nth-child(3) {
+            width: 100px;
+        }
+
+        .table th:nth-child(4) {
+            width: 120px;
+        }
+
+        .table th:nth-child(5) {
+            width: 180px;
+        }
+</style>
+
+<h3 class="mb-4">👤 Quản lý tác giả</h3>
+
+<div class="d-flex justify-content-between align-items-center mb-3" style="gap: 10px;">
+    <a asp-area="Admin" asp-controller="Authors" asp-action="Create" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Thêm tác giả
+    </a>
+
+    <form method="get" asp-action="Index" class="d-flex" style="gap: 10px;">
+        <input type="text" name="search" class="form-control" placeholder="🔍 Tìm theo tên tác giả..." value="@search" />
+        <button type="submit" class="btn btn-outline-secondary">
+            <i class="bi bi-search"></i> Tìm
+        </button>
+
+        @if (!string.IsNullOrEmpty(search))
+        {
+            <a href="@Url.Action("Index")" class="btn btn-secondary">
+                <i class="bi bi-arrow-counterclockwise"></i> Đặt lại
+            </a>
+        }
+    </form>
+</div>
+
+<table class="table table-bordered table-hover align-middle">
+    <thead class="table-success text-center">
+        <tr>
+            <th>Tên tác giả</th>
+            <th>Tiểu sử</th>
+            <th>Ảnh</th>
+            <th>Ngày tạo</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var author in Model)
+        {
+            <tr>
+                <td>@author.Name</td>
+                <td class="bio-cell">@author.Bio</td>
+                <td class="text-center">
+                    @if (!string.IsNullOrEmpty(author.ImageUrl))
+                    {
+                        <img src="@author.ImageUrl"
+                             style="height: 80px; border-radius: 6px; object-fit: cover;" alt="Ảnh" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">(Không có ảnh)</span>
+                    }
+                </td>
+                <td>@author.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td class="text-center">
+                    <div class="action-buttons">
+                        <a asp-action="Edit" asp-route-id="@author.AuthorId" class="btn btn-sm btn-primary">
+                            <i class="bi bi-pencil-square"></i> Sửa
+                        </a>
+                        <a asp-action="Details" asp-route-id="@author.AuthorId" class="btn btn-sm btn-secondary">
+                            <i class="bi bi-eye"></i> Chi tiết
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@author.AuthorId"
+                           class="btn btn-sm btn-danger"
+                           onclick="return confirm('Bạn chắc chắn muốn xoá tác giả này?');">
+                            <i class="bi bi-trash"></i> Xoá
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (ViewBag.TotalPages > 1)
+{
+    <div class="d-flex justify-content-center mt-4">
+        <ul class="pagination">
+
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1, search = ViewBag.Search })">←</a>
+            </li>
+
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i, search = ViewBag.Search })">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1, search = ViewBag.Search })">→</a>
+            </li>
+        </ul>
+    </div>
+}

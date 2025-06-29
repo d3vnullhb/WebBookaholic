@@ -1,0 +1,32 @@
+﻿@model Bookaholic.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Chi tiết người dùng";
+    Layout = "~/Views/Shared/_Layoutadmin.cshtml";
+    var isLocked = Model.LockoutEnd != null && Model.LockoutEnd > DateTime.Now;
+}
+
+<h3 class="mb-4">🔍 Chi tiết người dùng</h3>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <dl class="row mb-0">
+            <dt class="col-sm-3">Email</dt>
+            <dd class="col-sm-9">@Model.Email</dd>
+
+            <dt class="col-sm-3">Tên đăng nhập</dt>
+            <dd class="col-sm-9">@Model.UserName</dd>
+
+            <dt class="col-sm-3">Trạng thái</dt>
+            <dd class="col-sm-9">
+                @(isLocked ? "🔒 Bị khóa" : "✔️ Hoạt động")
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="Index" class="btn btn-secondary">
+        <i class="bi bi-arrow-left"></i> Quay lại danh sách
+    </a>
+</div>
