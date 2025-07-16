@@ -33,7 +33,9 @@ namespace Bookaholic.Areas.Admin.Controllers
             var totalOrders = orders.Count();
 
             // Tổng doanh thu
-            var totalRevenue = orders.Sum(o => o.TotalAmount);
+            var totalRevenue = orders
+                     .Where(o => o.OrderStatus == "Hoàn tất") 
+                     .Sum(o => o.TotalAmount);
 
             // Số đơn theo trạng thái
             var orderStatusCounts = orders

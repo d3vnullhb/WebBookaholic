@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\bookaholic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -35,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\statistics\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -325,10 +321,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\areas\\admin\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\areas\\admin\\views\\promotions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|solutionrelative:bookaholic\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A37740FF-AD6B-4FED-AF0F-28986BC7848A}|Bookaholic\\Bookaholic.csproj|c:\\users\\caoho\\source\\repos\\bookaholic\\bookaholic\\views\\checkout\\paymentresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -618,7 +610,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -634,42 +626,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\.gitignore",
-              "RelativeDocumentMoniker": "Bookaholic\\.gitignore",
-              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\.gitignore",
-              "RelativeToolTip": "Bookaholic\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
-              "WhenOpened": "2025-06-29T08:33:39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "CheckoutController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\CheckoutController.cs",
               "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CheckoutController.cs",
               "RelativeToolTip": "Bookaholic\\Controllers\\CheckoutController.cs",
-              "ViewState": "AgIAANgAAAAAAAAAAAAIwPUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAAAPUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:02:34.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
-              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
-              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
-              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T11:00:08.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T02:02:34.419Z"
             },
             {
               "$type": "Document",
@@ -681,12 +646,11 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Users\\Index.cshtml",
               "ViewState": "AgIAAEQAAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T13:38:08.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T13:38:08.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
@@ -694,8 +658,7 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Index.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-17T10:44:44.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T10:44:44.204Z"
             },
             {
               "$type": "Document",
@@ -707,25 +670,24 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Statistics\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:56:57.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:56:57.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "StatisticsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
               "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\StatisticsController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwCQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T05:55:18.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
@@ -733,12 +695,11 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAIAwwCIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T02:42:12.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T02:42:12.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
@@ -746,12 +707,11 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:44:24.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:44:24.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
@@ -759,12 +719,11 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwFUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T05:45:17.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T05:45:17.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
@@ -772,12 +731,23 @@
               "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\Books\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T05:30:42.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T05:30:42.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "RelativeToolTip": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T11:00:08.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Bookaholic.csproj",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Bookaholic.csproj",
               "RelativeDocumentMoniker": "Bookaholic\\Bookaholic.csproj",
@@ -785,12 +755,11 @@
               "RelativeToolTip": "Bookaholic\\Bookaholic.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-05T13:14:59.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T13:14:59.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CheckOutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CheckOutViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\CheckOutViewModel.cs",
@@ -802,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\appsettings.json",
               "RelativeDocumentMoniker": "Bookaholic\\appsettings.json",
@@ -814,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "MyOrder.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\MyOrder.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\MyOrder.cshtml",
@@ -826,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Details.cshtml",
@@ -838,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "OrderDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\OrderDetails.cshtml",
@@ -850,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "UserAddress.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\UserAddress.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\UserAddress.cs",
@@ -862,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "CreateAddress.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\CreateAddress.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\CreateAddress.cshtml",
@@ -874,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\AccountController.cs",
@@ -886,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Order.cs",
@@ -898,7 +867,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Books\\Index.cshtml",
@@ -910,7 +879,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\BooksController.cs",
@@ -922,7 +891,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_Layout.cshtml",
@@ -934,7 +903,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\OrderDetail.cs",
@@ -946,7 +915,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Addresses.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Addresses.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Addresses.cshtml",
@@ -958,7 +927,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\ChangePassword.cshtml",
@@ -970,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\LoginViewModel.cs",
@@ -982,7 +951,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -994,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\RegisterViewModel.cs",
@@ -1006,7 +975,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Register.cshtml",
@@ -1018,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Login.cshtml",
@@ -1030,7 +999,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Info.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\Info.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\Info.cshtml",
@@ -1042,7 +1011,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\CartItems\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\CartItems\\Index.cshtml",
@@ -1054,7 +1023,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "EditInfo.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditInfo.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\EditInfo.cshtml",
@@ -1066,7 +1035,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "_AccountSidebar.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\_AccountSidebar.cshtml",
@@ -1078,7 +1047,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\ChangePasswordViewModel.cs",
@@ -1090,7 +1059,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "EditAddress.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\EditAddress.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\EditAddress.cshtml",
@@ -1102,7 +1071,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "DeleteAddress.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Account\\DeleteAddress.cshtml",
@@ -1114,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 149,
               "Title": "20250627105037_AddUserAddress.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250627105037_AddUserAddress.cs",
@@ -1126,7 +1095,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Book.cs",
@@ -1138,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\ApplicationDbContext.cs",
@@ -1150,7 +1119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\ApplicationUser.cs",
@@ -1162,7 +1131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "_LayoutAccount.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_LayoutAccount.cshtml",
@@ -1174,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Orders\\Delete.cshtml",
@@ -1186,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Program.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Program.cs",
@@ -1198,7 +1167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\UsersController.cs",
@@ -1210,7 +1179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "BookReviewsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\BookReviewsController.cs",
@@ -1222,7 +1191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\ContactsController.cs",
@@ -1234,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
@@ -1246,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\CategoriesController.cs",
@@ -1258,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Index.cshtml",
@@ -1270,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\AuthorsController.cs",
@@ -1282,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\BooksController.cs",
@@ -1294,7 +1263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "AuthorsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\AuthorsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\AuthorsController.cs",
@@ -1306,7 +1275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 53,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Authors\\Index.cshtml",
@@ -1318,7 +1287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 54,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Review\\Details.cshtml",
@@ -1330,7 +1299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Review\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Review\\Index.cshtml",
@@ -1342,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 56,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Delete.cshtml",
@@ -1354,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 57,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Details.cshtml",
@@ -1366,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 58,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\ReviewController.cs",
@@ -1378,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Home\\Index.cshtml",
@@ -1390,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 60,
               "Title": "BookReview.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\BookReview.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\BookReview.cs",
@@ -1402,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 61,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Home\\About.cshtml",
@@ -1414,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 64,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Delete.cshtml",
@@ -1426,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 62,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Edit.cshtml",
@@ -1438,7 +1407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 63,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Details.cshtml",
@@ -1450,7 +1419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 65,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\Create.cshtml",
@@ -1462,7 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 66,
               "Title": "AssignRole.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Users\\AssignRole.cshtml",
@@ -1474,7 +1443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 67,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Create.cshtml",
@@ -1486,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 68,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Contact.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Contact.cs",
@@ -1498,7 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 69,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Author.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Author.cs",
@@ -1510,7 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 70,
               "Title": "_Layoutadmin.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_Layoutadmin.cshtml",
@@ -1522,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 71,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Category.cs",
@@ -1534,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 72,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Edit.cshtml",
@@ -1546,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 73,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Details.cshtml",
@@ -1558,7 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 74,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1570,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 76,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Contacts\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Contacts\\Index.cshtml",
@@ -1582,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 77,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Contacts\\Details.cshtml",
@@ -1594,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 78,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Create.cshtml",
@@ -1606,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 75,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -1618,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 79,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Index.cshtml",
@@ -1630,19 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "Bookaholic\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "Bookaholic\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-03T13:44:42.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 83,
               "Title": "VnPayService.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Services\\VnPayService.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Services\\VnPayService.cs",
@@ -1654,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 82,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\HomeController.cs",
@@ -1666,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 81,
               "Title": "PaymentResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentResponseModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\PaymentResponseModel.cs",
@@ -1678,7 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 80,
               "Title": "PaymentResult.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Checkout\\PaymentResult.cshtml",
@@ -1690,7 +1647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 84,
               "Title": "PaymentInformationModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\PaymentInformationModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\PaymentInformationModel.cs",
@@ -1702,7 +1659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 85,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\ErrorViewModel.cs",
@@ -1714,7 +1671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 86,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\CartItem.cs",
@@ -1726,7 +1683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 87,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Edit.cshtml",
@@ -1738,7 +1695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 88,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\BookReviews\\Create.cshtml",
@@ -1750,7 +1707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 89,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Books\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Books\\Details.cshtml",
@@ -1762,7 +1719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 90,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Checkout\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Checkout\\Index.cshtml",
@@ -1774,7 +1731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 148,
               "Title": "20250618023231_UpdateOrderFields.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023231_UpdateOrderFields.cs",
@@ -1786,7 +1743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 147,
               "Title": "20250618023527_MakeReceiptImageNullable.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023527_MakeReceiptImageNullable.cs",
@@ -1798,7 +1755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 146,
               "Title": "20250618023919_UpdateOrderFields_v2.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250618023919_UpdateOrderFields_v2.cs",
@@ -1810,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 91,
               "Title": "CartItemsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\CartItemsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\CartItemsController.cs",
@@ -1822,7 +1779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 92,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Books\\Delete.cshtml",
@@ -1834,7 +1791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 93,
               "Title": "ContactsController1.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Controllers\\ContactsController1.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Controllers\\ContactsController1.cs",
@@ -1846,7 +1803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 94,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\Components\\CartBadge\\Default.cshtml",
@@ -1858,7 +1815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 95,
               "Title": "CartBadgeViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewComponent\\CartBadgeViewComponent.cs",
@@ -1870,7 +1827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 96,
               "Title": "CartItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\CartItemViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\CartItemViewModel.cs",
@@ -1882,7 +1839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 145,
               "Title": "20250617093506_RenameCreatedAtToSentAt.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250617093506_RenameCreatedAtToSentAt.cs",
@@ -1894,7 +1851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 97,
               "Title": "BookListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\BookListViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\BookListViewModel.cs",
@@ -1906,7 +1863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 99,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Authors\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Authors\\Details.cshtml",
@@ -1918,7 +1875,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 98,
               "Title": "StoreViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\ViewModels\\StoreViewModel.cs",
               "RelativeDocumentMoniker": "Bookaholic\\ViewModels\\StoreViewModel.cs",
@@ -1930,7 +1887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 101,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Delete.cshtml",
@@ -1942,7 +1899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 102,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Details.cshtml",
@@ -1954,7 +1911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 103,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Promotions\\Edit.cshtml",
@@ -1966,7 +1923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 104,
               "Title": "PromotionsController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\PromotionsController.cs",
@@ -1978,7 +1935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 100,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -1990,7 +1947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 105,
               "Title": "VouchersController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\VouchersController.cs",
@@ -2002,7 +1959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 106,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
@@ -2014,7 +1971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 107,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -2026,7 +1983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 108,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -2038,7 +1995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 109,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Create.cshtml",
@@ -2050,7 +2007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 111,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Details.cshtml",
@@ -2062,7 +2019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 112,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Delete.cshtml",
@@ -2074,7 +2031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 110,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Authors\\Edit.cshtml",
@@ -2086,7 +2043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 113,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -2098,7 +2055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 114,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Views\\Shared\\_LoginPartial.cshtml",
@@ -2110,7 +2067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 115,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -2122,7 +2079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 144,
               "Title": "20250605052849_UpdateAuthorImageUrlNullable.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250605052849_UpdateAuthorImageUrlNullable.cs",
@@ -2134,7 +2091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 117,
               "Title": "DownloadPersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
@@ -2146,7 +2103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 118,
               "Title": "Disable2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
@@ -2158,7 +2115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 119,
               "Title": "DeletePersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
@@ -2170,7 +2127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 120,
               "Title": "ChangePassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
@@ -2182,7 +2139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 121,
               "Title": "EnableAuthenticator.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
@@ -2194,7 +2151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 122,
               "Title": "ExternalLogins.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
@@ -2206,7 +2163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 116,
               "Title": "Email.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
@@ -2218,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 123,
               "Title": "GenerateRecoveryCodes.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
@@ -2230,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 124,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
@@ -2242,7 +2199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 125,
               "Title": "PersonalData.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
@@ -2254,7 +2211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 126,
               "Title": "ResetAuthenticator.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
@@ -2266,7 +2223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 127,
               "Title": "SetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
@@ -2278,7 +2235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 128,
               "Title": "TwoFactorAuthentication.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
@@ -2290,7 +2247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 129,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -2302,7 +2259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 130,
               "Title": "ConfirmEmailChange.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
@@ -2314,7 +2271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 136,
               "Title": "ResetPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
@@ -2326,7 +2283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 135,
               "Title": "LoginWithRecoveryCode.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
@@ -2338,7 +2295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 134,
               "Title": "LoginWith2fa.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
@@ -2350,7 +2307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 133,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -2362,7 +2319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 132,
               "Title": "ForgotPassword.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
@@ -2374,7 +2331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 131,
               "Title": "ExternalLogin.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
@@ -2386,7 +2343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 137,
               "Title": "ResendEmailConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
@@ -2398,7 +2355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 138,
               "Title": "RegisterConfirmation.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
@@ -2410,7 +2367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 139,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -2422,7 +2379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 143,
               "Title": "20250604041538_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Data\\Migrations\\20250604041538_InitialCreate.cs",
@@ -2434,7 +2391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 140,
               "Title": "Promotion.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Promotion.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Promotion.cs",
@@ -2446,7 +2403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 141,
               "Title": "Subscriber.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Subscriber.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Subscriber.cs",
@@ -2458,7 +2415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 142,
               "Title": "Voucher.cs",
               "DocumentMoniker": "C:\\Users\\caoho\\source\\repos\\Bookaholic\\Bookaholic\\Models\\Voucher.cs",
               "RelativeDocumentMoniker": "Bookaholic\\Models\\Voucher.cs",
