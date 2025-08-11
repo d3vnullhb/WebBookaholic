@@ -17,16 +17,16 @@ public class CartBadgeViewComponent : ViewComponent
 
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        // Lấy user hiện tại
+       
         var userId = _userManager.GetUserId(HttpContext.User);
 
-        // Nếu chưa đăng nhập thì trả 0
+       
         if (string.IsNullOrEmpty(userId))
         {
             return View(0);
         }
 
-        // Lấy tổng số lượng sp trong giỏ
+       
         var count = await Task.Run(() =>
             _context.CartItems
                 .Where(c => c.UserId == userId)

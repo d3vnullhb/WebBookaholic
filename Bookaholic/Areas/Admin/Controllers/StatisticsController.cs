@@ -22,22 +22,22 @@ namespace Bookaholic.Areas.Admin.Controllers
                 .Where(o => o.OrderStatus != "Đã hủy")
                 .AsQueryable();
 
-            // Nếu có lọc từ ngày → đến ngày
+           
             if (fromDate.HasValue)
                 orders = orders.Where(o => o.OrderDate >= fromDate.Value);
 
             if (toDate.HasValue)
                 orders = orders.Where(o => o.OrderDate <= toDate.Value);
 
-            // Tổng số đơn hàng
+            
             var totalOrders = orders.Count();
 
-            // Tổng doanh thu
+            
             var totalRevenue = orders
                      .Where(o => o.OrderStatus == "Hoàn tất") 
                      .Sum(o => o.TotalAmount);
 
-            // Số đơn theo trạng thái
+           
             var orderStatusCounts = orders
                 .GroupBy(o => o.OrderStatus)
                 .Select(g => new
@@ -46,7 +46,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                     Count = g.Count()
                 }).ToList();
 
-            // Top 5 sách bán chạy
+            
             var topBooks = _context.OrderDetails
                 .Include(od => od.Book)
                 .Where(od => orders.Select(o => o.OrderId).Contains(od.OrderId))
@@ -60,7 +60,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                 .Take(5)
                 .ToList();
 
-            // Gán dữ liệu sang ViewBag
+         
             ViewBag.TotalOrders = totalOrders;
             ViewBag.TotalRevenue = totalRevenue;
             ViewBag.OrderStatusCounts = orderStatusCounts;

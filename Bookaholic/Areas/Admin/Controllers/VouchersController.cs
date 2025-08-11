@@ -52,9 +52,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             return View();
         }
 
-        // POST: Vouchers/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Vouchers/Create       
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("VoucherId,Code,DiscountType,DiscountValue,MinOrderAmount,ExpiryDate,IsActive,CreatedAt")] Voucher voucher)
@@ -84,9 +82,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             return View(voucher);
         }
 
-        // POST: Vouchers/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Vouchers/Edit/5      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("VoucherId,Code,DiscountType,DiscountValue,MinOrderAmount,ExpiryDate,IsActive,CreatedAt")] Voucher voucher)

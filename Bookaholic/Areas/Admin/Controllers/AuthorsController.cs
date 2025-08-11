@@ -77,15 +77,14 @@ namespace Bookaholic.Areas.Admin.Controllers
         public async Task<IActionResult> Create(Author author, IFormFile? ImageFile)
         {
             if (ModelState.IsValid)
-            {
-                // Xử lý upload file ảnh nếu có
+            {              
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/authors");
                     if (!Directory.Exists(uploadsFolder))
                         Directory.CreateDirectory(uploadsFolder);
 
-                    var fileName = Path.GetFileName(ImageFile.FileName); // 👈 dùng tên gốc
+                    var fileName = Path.GetFileName(ImageFile.FileName); 
                     var filePath = Path.Combine(uploadsFolder, fileName);
 
                     using (var stream = new FileStream(filePath, FileMode.Create))
@@ -93,7 +92,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                         await ImageFile.CopyToAsync(stream);
                     }
 
-                    author.ImageUrl = "/images/authors/" + fileName; // 👈 giữ nguyên tên
+                    author.ImageUrl = "/images/authors/" + fileName; 
 
                 }
 
@@ -136,7 +135,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                 authorInDb.Bio = author.Bio;
                 authorInDb.CreatedAt = author.CreatedAt;
 
-                // Nếu có file ảnh mới thì upload
+              
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/authors");

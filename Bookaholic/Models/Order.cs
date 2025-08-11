@@ -56,7 +56,7 @@ namespace Bookaholic.Models
         [StringLength(500)]
         public string? Note { get; set; }
 
-        // Navigation
+       
         public ICollection<OrderDetail> OrderDetails { get; set; }
     }
 }

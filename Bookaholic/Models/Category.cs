@@ -15,7 +15,7 @@ namespace Bookaholic.Models
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-        // Navigation property
+       
         public ICollection<Book> Books { get; set; } = new List<Book>();
     }
 }

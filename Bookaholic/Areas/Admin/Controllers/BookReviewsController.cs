@@ -67,7 +67,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             else
             {
                 review.UserId = user.Id;
-                ModelState.Remove("UserId"); // ✅ FIX lỗi required khi binding
+                ModelState.Remove("UserId"); 
             }
 
             if (review.BookId == 0)
@@ -125,8 +125,7 @@ namespace Bookaholic.Areas.Admin.Controllers
 
             var existing = await _context.BookReviews.FindAsync(id);
             if (existing == null) return NotFound();
-
-            // ⚠️ Gán lại UserId để tránh lỗi Required
+            
             review.UserId = existing.UserId;
             ModelState.Remove("UserId");
 
@@ -136,7 +135,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                 return View(review);
             }
 
-            // Cập nhật dữ liệu
+           
             existing.Title = review.Title;
             existing.Content = review.Content;
             existing.BookId = review.BookId;

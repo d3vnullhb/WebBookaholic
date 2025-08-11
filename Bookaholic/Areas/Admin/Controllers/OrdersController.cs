@@ -52,7 +52,6 @@ namespace Bookaholic.Areas.Admin.Controllers
         }
 
 
-
         // GET: Admin/Orders/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -100,7 +99,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             if (id != order.OrderId)
                 return NotFound();
 
-            // 👇 Xoá các lỗi navigation không cần validate
+           
             ModelState.Remove("User");
             ModelState.Remove("Voucher");
             ModelState.Remove("OrderDetails");
@@ -121,8 +120,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                         throw;
                 }
             }
-
-            // ⚠️ Nếu ModelState không valid → nạp lại dropdown
+         
             ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", order.UserId);
             ViewData["VoucherId"] = new SelectList(_context.Vouchers, "VoucherId", "Code", order.VoucherId);
             ViewBag.OrderStatusList = new SelectList(new[]

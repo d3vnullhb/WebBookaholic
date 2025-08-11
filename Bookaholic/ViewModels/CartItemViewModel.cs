@@ -10,7 +10,7 @@ namespace Bookaholic.ViewModels
         public Book Book { get; set; }
         public int Quantity { get; set; }
 
-        // Tính tổng giá cho từng mặt hàng
+        
         public decimal Subtotal => Book.OriginalPrice * Quantity;
     }
 
@@ -18,7 +18,7 @@ namespace Bookaholic.ViewModels
     {
         public List<CartItemViewModel> Items { get; set; } = new List<CartItemViewModel>();
 
-        // Tổng cộng toàn bộ giỏ hàng
+       
         public decimal Total => Items.Sum(i => i.Subtotal);
     }
 }

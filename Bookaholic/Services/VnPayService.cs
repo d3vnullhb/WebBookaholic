@@ -43,9 +43,9 @@ namespace Bookaholic.Services
                 { "vnp_CurrCode", _config["Vnpay:CurrCode"] },
                 { "vnp_IpAddr", ipAddress },
                 { "vnp_Locale", _config["Vnpay:Locale"] },
-                { "vnp_OrderInfo", $"Order-{tick} | {model.Name} | {model.OrderDescription}" }, // Gợi ý kèm mã đơn
+                { "vnp_OrderInfo", $"Order-{tick} | {model.Name} | {model.OrderDescription}" }, 
                 { "vnp_OrderType", model.OrderType },
-                { "vnp_ReturnUrl", _config["Vnpay:PaymentCallBack:ReturnUrl"] }, // 🔧 sửa lại key đúng config
+                { "vnp_ReturnUrl", _config["Vnpay:PaymentCallBack:ReturnUrl"] }, 
                 { "vnp_TxnRef", tick }
             };
 

@@ -52,9 +52,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             return View();
         }
 
-        // POST: Promotions/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Promotions/Create     
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,Message,StartDate,EndDate,IsActive,CreatedAt")] Promotion promotion)
@@ -84,9 +82,7 @@ namespace Bookaholic.Areas.Admin.Controllers
             return View(promotion);
         }
 
-        // POST: Promotions/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Promotions/Edit/5 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Message,StartDate,EndDate,IsActive,CreatedAt")] Promotion promotion)

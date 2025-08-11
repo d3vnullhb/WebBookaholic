@@ -182,14 +182,14 @@ namespace Bookaholic.Controllers
 
             if (response.Success)
             {
-                // 1. Lấy thông tin đã lưu tạm trước đó
+               
                 var fullName = TempData["FullName"]?.ToString() ?? "Không rõ";
                 var address = TempData["ShippingAddress"]?.ToString() ?? "Không rõ";
                 var phone = TempData["ShippingPhone"]?.ToString() ?? "Không rõ";
                 var note = TempData["Note"]?.ToString();
                 var shippingFee = Convert.ToInt32(TempData["ShippingFee"] ?? 20000);
 
-                // 2. Lấy giỏ hàng
+               
                 var cartItems = await _context.CartItems
                     .Include(c => c.Book)
                     .Where(c => c.UserId == userId)
@@ -197,7 +197,7 @@ namespace Bookaholic.Controllers
 
                 var total = cartItems.Sum(x => x.Book.Price * x.Quantity);
 
-                // 3. Tạo đơn hàng
+               
                 var order = new Order
                 {
                     UserId = userId,
@@ -216,7 +216,7 @@ namespace Bookaholic.Controllers
                 _context.Orders.Add(order);
                 await _context.SaveChangesAsync();
 
-                // 4. Lưu chi tiết đơn hàng
+                
                 foreach (var item in cartItems)
                 {
                     _context.OrderDetails.Add(new OrderDetail
@@ -228,7 +228,7 @@ namespace Bookaholic.Controllers
                     });
                 }
 
-                // 5. Xoá giỏ hàng
+                
                 _context.CartItems.RemoveRange(cartItems);
                 await _context.SaveChangesAsync();
 

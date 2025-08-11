@@ -124,7 +124,7 @@ namespace Bookaholic.Areas.Admin.Controllers
                 var existingBook = await _context.Books.FindAsync(id);
                 if (existingBook == null) return NotFound();
 
-                // Cập nhật thủ công
+               
                 existingBook.Title = book.Title;
                 existingBook.AuthorId = book.AuthorId ?? 0;
                 existingBook.Translator = book.Translator;

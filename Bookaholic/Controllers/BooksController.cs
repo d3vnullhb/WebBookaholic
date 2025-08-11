@@ -27,19 +27,19 @@ namespace Bookaholic.Controllers
                 .Include(b => b.Category)
                 .AsQueryable();
 
-            // 🔍 Nếu có tìm kiếm
+           
             if (!string.IsNullOrEmpty(search))
             {
                 booksQuery = booksQuery.Where(b => b.Title.Contains(search));
             }
 
-            // 📂 Nếu lọc theo thể loại
+            
             if (categoryId.HasValue)
             {
                 booksQuery = booksQuery.Where(b => b.CategoryId == categoryId.Value);
             }
 
-            // 🔃 Sắp xếp
+            
             booksQuery = sort switch
             {
                 "newest" => booksQuery.OrderByDescending(b => b.CreatedAt),
@@ -48,7 +48,7 @@ namespace Bookaholic.Controllers
                 _ => booksQuery.OrderBy(b => b.BookId),
             };
 
-            // 📦 Phân trang
+           
             int totalBooks = await booksQuery.CountAsync();
             var books = await booksQuery
                 .Skip((page - 1) * pageSize)
