@@ -23,9 +23,9 @@ git clone <link_repo_github>
   "DefaultConnection": "Server=**Server của bạn**;Database=Bookaholic;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True"
 }
 
-
 # 4. Mở Package Manager Console và chạy lệnh tạo database
 Update-Database
 
 # 5. Nhấn F5 hoặc chọn IIS Express để chạy website
 #    Sau đó truy cập: https://localhost:<port>
+TK Admin: admin@bookaholic.vn MK: Admin123@
