@@ -16,11 +16,11 @@ Website quản lý sách và người dùng, được xây dựng bằng **ASP.N
 # 1. Clone dự án từ GitHub
 git clone <link_repo_github>
 
-# 2. Mở file Bookaholic.sln bằng Visual Studio
+# 2.Giải nén và mở file Bookaholic.sln bằng Visual Studio
 
 # 3. Sửa chuỗi kết nối trong appsettings.json cho phù hợp máy bạn
 "ConnectionStrings": {
-  "DefaultConnection": "Server=**Server của bạn**;Database=Bookaholic;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True"
+  "DefaultConnection": "Server=**Server của bạn**;Database=BookaholicDB;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=True"
 }
 # 4. Restore file Backup
 
