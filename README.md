@@ -25,6 +25,7 @@ git clone <link_repo_github>
 
 # 4. Mở Package Manager Console và chạy lệnh tạo database
 Update-Database
+Restore file backup
 
 # 5. Nhấn F5 hoặc chọn IIS Express để chạy website
 #    Sau đó truy cập: https://localhost:<port>
